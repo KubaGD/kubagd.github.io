@@ -1,0 +1,37 @@
+name: 最新動画を更新
+
+on:
+  schedule:
+    - cron: "17 * * * *"  # 毎時17分
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-videos.yml"
+      - "scripts/fetch_videos.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-videos
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: RSSから動画一覧を取得
+        run: python3 scripts/fetch_videos.py
+      - name: 変更があればコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/videos.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "最新動画を更新"
+            git push
+          fi
