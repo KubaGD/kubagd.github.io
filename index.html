@@ -471,7 +471,10 @@
     return btn;
   }
 
+  const tidy = v => ({ ...v, title: String(v.title || '').split(/\s+/).filter((w, i, a) => !(w.startsWith('#') && a.slice(i).every(x => x.startsWith('#')))).join(' ') || v.title });
+
   function render(videos) {
+    videos = videos.map(tidy);
     const longs = videos.filter(v => !v.short);
     const shorts = videos.filter(v => v.short);
 
@@ -500,7 +503,7 @@
           <a class="post" href="${watch(v)}" target="_blank" rel="noopener">
             <img src="${thumb(v.id)}" alt="" loading="lazy">
             <h3>${esc(v.title)}</h3>
-            <p>${esc(v.excerpt) || day(v.published)}</p>
+            <p>${v.kind === 'live' ? '配信アーカイブ ／ ' : ''}${day(v.published)}${v.excerpt ? '<br>' + esc(v.excerpt) : ''}</p>
           </a>`).join('');
       }
     }

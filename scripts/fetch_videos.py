@@ -9,9 +9,17 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 CHANNEL_ID = "UCI4sJGfpJaa15xWM8D78pAg"
-FEED_URL = f"https://www.youtube.com/feeds/videos.xml?channel_id={CHANNEL_ID}"
+BASE = "https://www.youtube.com/feeds/videos.xml"
+UPLOADS = CHANNEL_ID[2:]
+# ショートが多い日は通常のRSSが全部ショートになるため、種類ごとの再生リストからも取る
+FEEDS = [
+    ("all", f"{BASE}?channel_id={CHANNEL_ID}"),
+    ("video", f"{BASE}?playlist_id=UULF{UPLOADS}"),  # 通常の動画
+    ("live", f"{BASE}?playlist_id=UULV{UPLOADS}"),   # 生配信のアーカイブ
+    ("short", f"{BASE}?playlist_id=UUSH{UPLOADS}"),  # ショート
+]
 OUT = pathlib.Path(__file__).resolve().parent.parent / "data" / "videos.json"
-KEEP = 60  # 保存しておく最大件数
+KEEP = 80  # 保存しておく最大件数
 
 NS = {
     "atom": "http://www.w3.org/2005/Atom",
@@ -20,13 +28,21 @@ NS = {
 }
 
 
-def fetch_feed():
-    req = urllib.request.Request(FEED_URL, headers={"User-Agent": "rurugame-site-updater"})
+def fetch_feed(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "rurugame-site-updater"})
     with urllib.request.urlopen(req, timeout=30) as res:
         return res.read()
 
 
-def parse(xml_bytes):
+def clean_title(title):
+    """末尾のハッシュタグ（#にゃんこ大戦争 #shorts など）を外す"""
+    words = title.split()
+    while words and words[-1].startswith("#"):
+        words.pop()
+    return " ".join(words) or title
+
+
+def parse(xml_bytes, kind="all"):
     root = ET.fromstring(xml_bytes)
     videos = []
     for entry in root.findall("atom:entry", NS):
@@ -41,11 +57,13 @@ def parse(xml_bytes):
             stats = group.find("media:community/media:statistics", NS)
             if stats is not None and stats.get("views", "").isdigit():
                 views = int(stats.get("views"))
+        is_short = kind == "short" or "/shorts/" in href
         videos.append({
             "id": vid,
-            "title": entry.findtext("atom:title", default="", namespaces=NS),
+            "title": clean_title(entry.findtext("atom:title", default="", namespaces=NS)),
             "published": entry.findtext("atom:published", default="", namespaces=NS),
-            "short": "/shorts/" in href,
+            "short": is_short,
+            "kind": "short" if is_short else ("live" if kind == "live" else "video"),
             "views": views,
             "excerpt": desc.strip().split("\n")[0][:120],
         })
@@ -53,7 +71,16 @@ def parse(xml_bytes):
 
 
 def main():
-    fresh = parse(fetch_feed())
+    fresh = []
+    for kind, url in FEEDS:
+        try:
+            got = parse(fetch_feed(url), kind)
+            print(f"{kind}: {len(got)}")
+            fresh.extend(got)
+        except Exception as e:  # 1つ失敗しても他は続ける
+            print(f"{kind}: failed ({e})")
+    if not fresh:
+        raise SystemExit("どのフィードも取得できませんでした")
     old = []
     if OUT.exists():
         try:
@@ -61,7 +88,11 @@ def main():
         except (ValueError, AttributeError):
             old = []
     merged = {v["id"]: v for v in old}
-    merged.update({v["id"]: v for v in fresh})  # 新しい情報で上書き
+    for v in fresh:  # 新しい情報で上書き。種類は「生配信」「ショート」の判定を優先
+        prev = merged.get(v["id"])
+        if prev and prev.get("kind") in ("live", "short") and v["kind"] == "video":
+            v["kind"], v["short"] = prev["kind"], prev["short"]
+        merged[v["id"]] = v
     videos = sorted(merged.values(), key=lambda v: v["published"], reverse=True)[:KEEP]
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"videos": videos}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
