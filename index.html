@@ -162,7 +162,7 @@
   }
   .player:hover::after { transform: scale(1.06); }
   .player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-  .player.playing::after { display: none; }
+  .player.playing::after, .player:has(iframe)::after { display: none; }
 
   .latest { display: grid; grid-template-columns: 1.6fr 1fr; gap: 32px; }
   .latest-main h3 { font-size: 20px; line-height: 1.5; margin: 18px 0 4px; }
@@ -223,6 +223,27 @@
   .contact dd { margin: 0; }
   .contact p { margin: 20px 0 0; font-size: 14px; }
 
+  /* サブチャンネル */
+  .sub-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; }
+  .sub-list { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-content: start; }
+  .sub-list a { text-decoration: none; }
+  .sub-list img { aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; width: 100%; background: var(--red-night); }
+  .sub-list strong { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: 13px; line-height: 1.5; margin-top: 8px; }
+  .sub-list a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+  .sub-main h3 { font-size: 18px; line-height: 1.5; margin: 16px 0 4px; }
+
+  /* X */
+  .x-area { display: grid; grid-template-columns: 1fr 1.2fr; gap: 56px; margin-top: 88px; align-items: start; }
+  .x-area h2 { font-size: clamp(24px, 3vw, 32px); }
+  .x-area p { color: var(--cream-dim); }
+  .follow {
+    display: inline-block; margin-top: 12px; padding: 12px 22px; border-radius: 99px;
+    background: var(--cream); color: var(--ink); font-weight: 700; text-decoration: none;
+  }
+  .follow:hover { background: #fff; }
+  .x-frame { background: var(--cream); color: var(--ink); border-radius: var(--radius); padding: 8px; min-height: 160px; }
+  .x-frame .twitter-timeline { display: block; padding: 24px; color: var(--ink); }
+
   footer { padding: 40px 0 56px; font-size: 13px; color: var(--cream-dim); background: var(--red-night); }
   footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 
@@ -231,7 +252,7 @@
     .hero-copy { grid-template-columns: 1fr; }
     .slots { grid-template-columns: 1fr 1fr; }
     .slot.cannon { grid-column: span 2; }
-    .latest, .story, .work { grid-template-columns: 1fr; gap: 40px; }
+    .latest, .story, .work, .sub-grid, .x-area { grid-template-columns: 1fr; gap: 40px; }
     .archive { grid-template-columns: 1fr 1fr; }
     .vows { grid-template-columns: 1fr; }
     .vow, .vow + .vow { padding: 24px 0; border-left: 0; border-bottom: 1px solid rgba(255,244,230,.25); }
@@ -264,6 +285,7 @@
     <nav aria-label="ページ内リンク">
       <a href="#latest">最新動画</a>
       <a href="#shorts">ショート</a>
+      <a href="#sub">サブチャンネル</a>
       <a href="#story">るるゲームについて</a>
       <a href="#schedule">配信予定</a>
       <a href="#work">お仕事の相談</a>
@@ -352,6 +374,23 @@
     </div>
   </section>
 
+  <section id="sub" class="deep">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2>サブチャンネル るるゲームアルファ</h2>
+          <p>メインでは出しきれない動画は、こちらに置いています。</p>
+        </div>
+        <a class="more" href="https://www.youtube.com/channel/UCeI7tXU8GgywzL10AEMPzYQ" target="_blank" rel="noopener">サブチャンネルを見る</a>
+      </div>
+      <div class="sub-grid" id="sub-box">
+        <div class="sub-main">
+          <div class="player" style="cursor:default"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=UUeI7tXU8GgywzL10AEMPzYQ" title="るるゲームアルファの動画" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="story" class="night">
     <div class="wrap">
       <div class="story">
@@ -398,6 +437,17 @@
         <div class="day off"><b>日</b><span>おやすみ</span></div>
       </div>
       <p class="note">曜日と時間は仮です。決まりしだい更新します。</p>
+
+      <div class="x-area" id="x">
+        <div>
+          <h2>配信のお知らせはXで</h2>
+          <p>配信の開始や、新しい動画の公開をXでお知らせしています。</p>
+          <a class="follow" href="https://x.com/Uno_RuL" target="_blank" rel="noopener">@Uno_RuL をフォロー</a>
+        </div>
+        <div class="x-frame">
+          <a class="twitter-timeline" data-height="560" data-chrome="noheader nofooter transparent" data-lang="ja" href="https://twitter.com/Uno_RuL">@Uno_RuL の投稿をXで見る</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -415,7 +465,7 @@
       <div class="contact">
         <dl>
           <dt>メール</dt><dd>準備中</dd>
-          <dt>X</dt><dd>準備中</dd>
+          <dt>X</dt><dd><a href="https://x.com/Uno_RuL" target="_blank" rel="noopener">@Uno_RuL</a>（DM）</dd>
         </dl>
         <p>内容、ご予算、希望の日程を添えてご連絡ください。</p>
       </div>
@@ -425,7 +475,7 @@
 
 <footer>
   <div class="wrap">
-    <span>&copy; <span id="year"></span> るるゲーム</span>
+    <span>&copy; <span id="year"></span> るるゲーム ／ <a href="https://www.youtube.com/@RuLgames" target="_blank" rel="noopener">YouTube</a> ／ <a href="https://www.youtube.com/channel/UCeI7tXU8GgywzL10AEMPzYQ" target="_blank" rel="noopener">サブチャンネル</a> ／ <a href="https://x.com/Uno_RuL" target="_blank" rel="noopener">X</a></span>
     <span>「にゃんこ大戦争」は株式会社ポノスのゲームです。このサイトは非公式のファン活動として運営しています。</span>
   </div>
 </footer>
@@ -503,7 +553,7 @@
           <a class="post" href="${watch(v)}" target="_blank" rel="noopener">
             <img src="${thumb(v.id)}" alt="" loading="lazy">
             <h3>${esc(v.title)}</h3>
-            <p>${v.kind === 'live' ? '配信アーカイブ ／ ' : ''}${day(v.published)}${v.excerpt ? '<br>' + esc(v.excerpt) : ''}</p>
+            <p>${v.kind === 'live' ? '配信アーカイブ ／ ' : ''}${day(v.published)}${v.excerpt && !/^\d{1,2}:\d{2}/.test(v.excerpt) ? '<br>' + esc(v.excerpt) : ''}</p>
           </a>`).join('');
       }
     }
@@ -517,17 +567,43 @@
     }
   }
 
+  function renderSub(list) {
+    const subs = list.map(tidy).filter(v => !v.short);
+    if (!subs.length) return;
+    const [first, ...rest] = subs;
+    const box = document.getElementById('sub-box');
+    box.innerHTML = `
+      <div class="sub-main">
+        <div id="sub-player"></div>
+        <h3>${esc(first.title)}</h3>
+        <div class="meta">${day(first.published)} 公開</div>
+      </div>
+      <div class="sub-list">
+        ${rest.slice(0, 4).map(v => `
+          <a href="${watch(v)}" target="_blank" rel="noopener">
+            <img src="${thumb(v.id, 'mqdefault')}" alt="" loading="lazy">
+            <strong>${esc(v.title)}</strong>
+          </a>`).join('')}
+      </div>`;
+    document.getElementById('sub-player').replaceWith(player(first));
+  }
+
   (async () => {
     for (const url of SOURCES) {
       try {
         const res = await fetch(url, { cache: 'no-cache' });
         if (!res.ok) continue;
         const data = await res.json();
-        if (Array.isArray(data.videos) && data.videos.length) { render(data.videos); return; }
+        if (Array.isArray(data.videos) && data.videos.length) {
+          render(data.videos);
+          if (Array.isArray(data.sub)) renderSub(data.sub);
+          return;
+        }
       } catch (e) { /* 次の取得先を試す */ }
     }
   })();
 })();
 </script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
