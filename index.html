@@ -8,7 +8,7 @@
 <meta property="og:title" content="るるゲーム">
 <meta property="og:description" content="にゃんこ大戦争の攻略を、生配信でいっしょに考えるチャンネル。">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#B8241C">
+<meta name="theme-color" content="#FFE3C4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -20,7 +20,39 @@
     --cream: #FFF4E6;
     --cream-dim: #F2D6BE;
     --ink: #3B0D09;
+    --ink-dim: #5A2A1E;
     --gold: #F2B33D;
+
+    /* 空（上から下へ、朝から夜へ） */
+    --sky-dawn: #FFE3C4;
+    --sky-morning: #CDEAF7;
+    --sky-noon: #9ED3F0;
+    --sky-pale: #BFE2F2;
+    --sky-afternoon: #F7DDA8;
+    --sky-golden: #F4BE7E;
+    --sky-sunset: #F0904A;
+    --dusk: #6A1E3C;
+    --night: #251B45;
+    --night-deep: #120D24;
+    --night-ground: #0A0716;
+
+    /* キャンプ場 */
+    --grass: #7DB356;
+    --grass-deep: #557F35;
+    --hill: #A9CC7E;
+    --tree: #4E7F33;
+    --tree-deep: #3A6326;
+    --road: #E6D6B8;
+    --silver: #CDD1D6;
+    --silver-dark: #8D949C;
+    --wood: #7A4A2A;
+    --meat: #9C4A2A;
+    --fire: #FF7A2E;
+    --skin: #F2C9A0;
+    --cat-orange: #E89A4A;
+    --cat-gray: #9C9AA8;
+    --cat-black: #2E2834;
+
     --font: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
     --radius: 6px;
   }
@@ -33,8 +65,10 @@
     font-size: 16px;
     line-height: 1.8;
     color: var(--cream);
-    background: var(--red);
+    background: var(--night-deep);
     -webkit-font-smoothing: antialiased;
+    --dim: var(--cream-dim);
+    --line: rgba(255,244,230,.25);
   }
   a { color: inherit; }
   h1, h2, h3, p, .lead { word-break: auto-phrase; text-wrap: pretty; }
@@ -43,6 +77,11 @@
   .wrap { width: min(1120px, 100% - 48px); margin-inline: auto; }
   .skip { position: absolute; left: -9999px; }
   .skip:focus { left: 16px; top: 16px; background: var(--cream); color: var(--ink); padding: 8px 12px; z-index: 10; }
+  .defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+  /* 昼の空は濃い字、夜の空は明るい字 */
+  .sky-day { color: var(--ink); --dim: var(--ink-dim); --line: rgba(59,13,9,.2); }
+  .sky-night { color: var(--cream); --dim: var(--cream-dim); --line: rgba(255,244,230,.25); }
 
   /* ---------- ヘッダー ---------- */
   .bar {
@@ -54,8 +93,17 @@
   .bar nav a { text-decoration: none; opacity: .85; }
   .bar nav a:hover { opacity: 1; text-decoration: underline; text-underline-offset: 6px; }
 
-  /* ---------- ヒーロー ---------- */
-  .hero { position: relative; overflow: hidden; }
+  /* ---------- ヒーロー（朝〜昼） ---------- */
+  .hero {
+    position: relative; overflow: hidden;
+    background: linear-gradient(180deg, var(--sky-dawn) 0%, var(--sky-morning) 55%, var(--sky-noon) 100%);
+  }
+  .sun {
+    position: absolute; top: 76px; right: 10%; width: 88px; aspect-ratio: 1; border-radius: 50%;
+    background: var(--cream);
+    box-shadow: 0 0 0 14px rgba(255,244,230,.4), 0 0 80px 40px rgba(255,244,230,.55);
+  }
+  .hero .bar, .hero-copy { position: relative; }
   .hero-copy { padding: 48px 0 8px; display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; }
   .title {
     margin: 0;
@@ -64,20 +112,23 @@
     line-height: 1;
     letter-spacing: -.01em;
   }
-  .lead { margin: 20px 0 0; max-width: 30em; font-size: clamp(16px, 1.9vw, 19px); color: var(--cream-dim); }
+  .lead { margin: 20px 0 0; max-width: 30em; font-size: clamp(16px, 1.9vw, 19px); color: var(--dim); }
   .goal { min-width: 260px; padding-bottom: 10px; }
-  .goal-label { font-size: 13px; font-weight: 700; color: var(--cream-dim); display: flex; justify-content: space-between; }
+  .goal-label { font-size: 13px; font-weight: 700; color: var(--dim); display: flex; justify-content: space-between; }
   .goal-num { font-weight: 900; font-size: 30px; line-height: 1.3; font-variant-numeric: tabular-nums; }
-  .goal-num small { font-size: 15px; font-weight: 700; color: var(--cream-dim); }
+  .goal-num small { font-size: 15px; font-weight: 700; color: var(--dim); }
   .meter { height: 10px; background: var(--red-night); border-radius: 99px; overflow: hidden; margin-top: 8px; }
   .meter span { display: block; height: 100%; width: 23%; background: var(--gold); border-radius: 99px; }
 
-  /* 戦場のレーン */
-  .lane { position: relative; height: 150px; margin-top: 28px; }
+  /* 戦場のレーン（昼の草原。奥の丘の道を、るるを乗せた車が走る） */
+  .lane { position: relative; height: 170px; margin-top: 28px; }
+  .hills { position: absolute; left: 0; bottom: 40px; width: 100%; height: 110px; }
+  .car { position: absolute; left: 0; bottom: 63px; width: 64px; height: 30px; animation: drive 22s linear infinite; }
+  @keyframes drive { from { transform: translateX(-80px); } to { transform: translateX(calc(100vw + 80px)); } }
   .ground {
     position: absolute; left: 0; right: 0; bottom: 0; height: 40px;
-    background: var(--red-deep);
-    background-image: repeating-linear-gradient(90deg, transparent 0 56px, rgba(0,0,0,.12) 56px 58px);
+    background: var(--grass-deep);
+    background-image: repeating-linear-gradient(90deg, transparent 0 56px, rgba(0,0,0,.1) 56px 58px);
   }
   .castle { position: absolute; bottom: 40px; width: 84px; height: 96px; }
   .castle.mine { right: 3%; }
@@ -85,10 +136,10 @@
   .castle .body { position: absolute; inset: 22px 0 0 0; background: var(--cream); border-radius: 4px 4px 0 0; }
   .castle.enemy .body { background: var(--red-night); }
   .castle .roof { position: absolute; left: 8px; right: 8px; top: 0; height: 24px; background: var(--ink); border-radius: 3px; }
-  .castle.enemy .roof { background: #2A0907; }
+  .castle.enemy .roof { background: var(--ink); }
   .castle .door { position: absolute; left: 50%; bottom: 0; width: 24px; height: 30px; transform: translateX(-50%); background: var(--red); border-radius: 12px 12px 0 0; }
-  .castle.enemy .door { background: #2A0907; }
-  .flag { position: absolute; top: -24px; left: 50%; transform: translateX(-50%); font-size: 11px; font-weight: 700; white-space: nowrap; color: var(--cream-dim); }
+  .castle.enemy .door { background: var(--ink); }
+  .flag { position: absolute; top: -24px; left: 50%; transform: translateX(-50%); font-size: 11px; font-weight: 700; white-space: nowrap; color: var(--ink-dim); }
   .unit {
     position: absolute; bottom: 40px; right: 15%;
     width: 26px; height: 30px; background: var(--cream);
@@ -120,7 +171,7 @@
   .shout.show { opacity: 1; transform: translate(-50%, 0); }
 
   /* 出撃メニュー */
-  .deploy { background: var(--red-deep); padding: 0 0 28px; }
+  .deploy { background: var(--grass-deep); padding: 0 0 28px; }
   .slots { display: grid; grid-template-columns: repeat(4, 1fr) auto; gap: 10px; }
   .slot {
     display: flex; align-items: center; justify-content: space-between; gap: 10px;
@@ -138,14 +189,37 @@
 
   /* ---------- セクション共通 ---------- */
   section { padding: 96px 0; }
-  section.deep { background: var(--red-deep); }
-  section.night { background: var(--red-night); }
+  #latest { background: linear-gradient(var(--sky-noon), var(--sky-pale)); }
+  #shorts { background: linear-gradient(var(--sky-pale), var(--sky-afternoon)); }
+  #archive { background: linear-gradient(var(--sky-afternoon), var(--sky-golden)); }
+  #sub { background: linear-gradient(var(--sky-golden), var(--sky-sunset)); }
+  #story { background: linear-gradient(var(--red), var(--dusk)); }
+  #schedule { background: linear-gradient(var(--dusk), var(--night)); --star: .55; }
+  #work { background: var(--night-deep); }
+
+  /* 星（夜のセクションだけ） */
+  .stars { position: relative; isolation: isolate; }
+  .stars::before {
+    content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    opacity: var(--star, .9);
+    background-image:
+      radial-gradient(1.6px 1.6px at 24px 36px, var(--cream) 50%, transparent 60%),
+      radial-gradient(1px 1px at 140px 80px, var(--cream) 50%, transparent 60%),
+      radial-gradient(2px 2px at 260px 24px, var(--cream) 50%, transparent 60%),
+      radial-gradient(1px 1px at 80px 190px, var(--cream) 50%, transparent 60%),
+      radial-gradient(1.4px 1.4px at 210px 150px, var(--cream) 50%, transparent 60%),
+      radial-gradient(1px 1px at 330px 210px, var(--cream) 50%, transparent 60%),
+      radial-gradient(2.2px 2.2px at 400px 110px, var(--gold) 50%, transparent 60%),
+      radial-gradient(1.2px 1.2px at 30px 280px, var(--cream) 50%, transparent 60%);
+    background-size: 300px 230px, 470px 330px;
+  }
+
   .head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 36px; }
   h2 { margin: 0; font-weight: 900; font-size: clamp(28px, 3.6vw, 40px); line-height: 1.3; }
-  .head p { margin: 8px 0 0; color: var(--cream-dim); }
+  .head p { margin: 8px 0 0; color: var(--dim); }
   .more {
     flex-shrink: 0; font-weight: 700; font-size: 14px; text-decoration: none;
-    padding: 10px 18px; border: 1.5px solid var(--cream-dim); border-radius: 99px;
+    padding: 10px 18px; border: 1.5px solid currentColor; border-radius: 99px;
   }
   .more:hover { background: var(--cream); color: var(--ink); border-color: var(--cream); }
 
@@ -166,13 +240,13 @@
 
   .latest { display: grid; grid-template-columns: 1.6fr 1fr; gap: 32px; }
   .latest-main h3 { font-size: 20px; line-height: 1.5; margin: 18px 0 4px; }
-  .meta { font-size: 13px; color: var(--cream-dim); }
+  .meta { font-size: 13px; color: var(--dim); }
   .side { display: grid; gap: 16px; align-content: start; }
   .side a { display: grid; grid-template-columns: 148px 1fr; gap: 14px; text-decoration: none; align-items: start; }
   .side img { aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px; width: 100%; background: var(--red-night); }
   .side strong { font-size: 14px; line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .side a:hover strong { text-decoration: underline; text-underline-offset: 4px; }
-  .side-label { font-size: 13px; font-weight: 700; color: var(--cream-dim); margin: 0; }
+  .side-label { font-size: 13px; font-weight: 700; color: var(--dim); margin: 0; }
 
   /* ショート */
   .shorts { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(170px, 1fr); gap: 14px; overflow-x: auto; padding-bottom: 12px; scroll-snap-type: x mandatory; }
@@ -180,39 +254,79 @@
   .short .thumb { aspect-ratio: 9 / 16; border-radius: var(--radius); overflow: hidden; background: var(--red); position: relative; }
   .short img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.35); }
   .short span { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: 13px; line-height: 1.5; margin-top: 10px; font-weight: 700; }
-  .short:hover .thumb { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .short:hover .thumb { outline: 2px solid var(--red); outline-offset: 2px; }
 
   /* 過去の投稿 */
   .archive { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 28px; }
   .post { text-decoration: none; display: block; }
   .post img { aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); width: 100%; background: var(--red-night); }
   .post h3 { font-size: 16px; line-height: 1.55; margin: 14px 0 6px; }
-  .post p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--cream-dim); }
+  .post p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--dim); }
   .post:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
 
-  .fallback { color: var(--cream-dim); }
+  .fallback { color: var(--dim); }
   .fallback .player { cursor: default; }
   .fallback .player::after { display: none; }
+
+  /* ---------- 場面（キャンプの一日） ---------- */
+  .scene { position: relative; margin: 0; height: 260px; overflow: hidden; }
+  .scene svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+  .scene figcaption {
+    position: absolute; top: 28px; left: max(24px, calc((100% - 1120px) / 2));
+    font-weight: 700; font-size: 15px; line-height: 1.5;
+  }
+  .scene figcaption b { display: block; font-size: 22px; font-weight: 900; }
+  .scene-arrive { background: var(--sky-afternoon); color: var(--ink); }
+  .scene-bbq { background: linear-gradient(var(--sky-sunset), var(--red) 90%); color: var(--ink); }
+  .scene-fire { background: linear-gradient(var(--night), var(--night-deep)); color: var(--cream); }
+  .scene-sleep { background: var(--night-deep); color: var(--cream); height: auto; padding-top: 48px; display: flex; flex-direction: column; }
+  .scene-sleep figcaption { position: static; order: -1; width: min(1120px, 100% - 48px); margin: 0 auto; }
+  .scene-sleep svg { position: relative; height: 160px; }
+
+  .c-red { fill: var(--red); } .c-red-deep { fill: var(--red-deep); } .c-red-night { fill: var(--red-night); }
+  .c-ink { fill: var(--ink); } .c-cream { fill: var(--cream); } .c-gold { fill: var(--gold); }
+  .c-silver { fill: var(--silver); } .c-silver-d { fill: var(--silver-dark); }
+  .c-hill { fill: var(--hill); } .c-grass { fill: var(--grass); } .c-road { fill: var(--road); }
+  .c-wood { fill: var(--wood); } .c-meat { fill: var(--meat); } .c-fire { fill: var(--fire); }
+  .c-skin { fill: var(--skin); } .c-sky { fill: var(--sky-morning); } .c-cat { fill: var(--cat-orange); }
+  .c-night { fill: var(--night); } .c-night-g { fill: var(--night-ground); }
+  .c-door { fill: var(--door, var(--gold)); }
+  .c-eye { fill: var(--eye, var(--ink)); }
+  .seam { fill: none; stroke: var(--silver-dark); stroke-width: 1.5; }
+  .pipe { fill: none; stroke: var(--ink); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  .log { fill: none; stroke: var(--wood); stroke-width: 9; stroke-linecap: round; }
+  .t1 { color: var(--tree); } .t2 { color: var(--tree-deep); } .t-night { color: var(--night-ground); }
+  .cat-o { color: var(--cat-orange); } .cat-g { color: var(--cat-gray); } .cat-k { color: var(--cat-black); --eye: var(--gold); }
+  .dome-sleep { --door: var(--night); }
+  .glow-a { stop-color: var(--fire); stop-opacity: .5; } .glow-b { stop-color: var(--fire); stop-opacity: 0; }
+  .zzz { fill: var(--cream); font: 900 22px var(--font); }
+
+  .smoke path { fill: none; stroke: var(--cream); stroke-width: 4; stroke-linecap: round; opacity: .5; animation: smoke 3.6s ease-in-out infinite; }
+  .smoke path + path { animation-delay: -1.8s; }
+  @keyframes smoke { 0% { transform: translateY(8px); opacity: 0; } 30% { opacity: .55; } 100% { transform: translateY(-22px); opacity: 0; } }
+  .flame { transform-box: fill-box; transform-origin: 50% 100%; animation: flicker .9s ease-in-out infinite alternate; }
+  .flame + .flame { animation-duration: .7s; animation-delay: -.3s; }
+  @keyframes flicker { from { transform: scale(1, .88); } to { transform: scale(.94, 1.06); } }
 
   /* ストーリー */
   .story { display: grid; grid-template-columns: 1fr 1.25fr; gap: 64px; align-items: start; }
   .story h2 { font-size: clamp(30px, 4.2vw, 48px); line-height: 1.35; }
   .story-body p { margin: 0 0 1.4em; font-size: 17px; line-height: 2; }
-  .story-body .sign { font-weight: 700; color: var(--cream-dim); margin: 0; }
-  .vows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 72px; border-top: 1px solid rgba(255,244,230,.25); }
+  .story-body .sign { font-weight: 700; color: var(--dim); margin: 0; }
+  .vows { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 72px; border-top: 1px solid var(--line); }
   .vow { padding: 28px 28px 0 0; }
-  .vow + .vow { padding-left: 28px; border-left: 1px solid rgba(255,244,230,.25); }
+  .vow + .vow { padding-left: 28px; border-left: 1px solid var(--line); }
   .vow h3 { margin: 0 0 8px; font-size: 20px; font-weight: 900; }
-  .vow p { margin: 0; color: var(--cream-dim); font-size: 15px; }
+  .vow p { margin: 0; color: var(--dim); font-size: 15px; }
 
   /* スケジュール */
-  .week { display: grid; grid-template-columns: repeat(7, 1fr); border-top: 1px solid rgba(255,244,230,.25); }
-  .day { padding: 18px 12px 18px 0; border-bottom: 1px solid rgba(255,244,230,.25); }
+  .week { display: grid; grid-template-columns: repeat(7, 1fr); border-top: 1px solid var(--line); }
+  .day { padding: 18px 12px 18px 0; border-bottom: 1px solid var(--line); }
   .day b { display: block; font-size: 22px; font-weight: 900; }
   .day span { display: block; font-size: 14px; line-height: 1.5; }
   .day .time { color: var(--gold); font-weight: 700; margin-top: 4px; }
-  .day.off span { color: var(--cream-dim); }
-  .note { font-size: 13px; color: var(--cream-dim); margin-top: 16px; }
+  .day.off span { color: var(--dim); }
+  .note { font-size: 13px; color: var(--dim); margin-top: 16px; }
 
   /* お仕事 */
   .work { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
@@ -235,7 +349,7 @@
   /* X */
   .x-area { display: grid; grid-template-columns: 1fr 1.2fr; gap: 56px; margin-top: 88px; align-items: start; }
   .x-area h2 { font-size: clamp(24px, 3vw, 32px); }
-  .x-area p { color: var(--cream-dim); }
+  .x-area p { color: var(--dim); }
   .follow {
     display: inline-block; margin-top: 12px; padding: 12px 22px; border-radius: 99px;
     background: var(--cream); color: var(--ink); font-weight: 700; text-decoration: none;
@@ -244,8 +358,8 @@
   .x-frame { background: var(--cream); color: var(--ink); border-radius: var(--radius); padding: 8px; min-height: 160px; }
   .x-frame .twitter-timeline { display: block; padding: 24px; color: var(--ink); }
 
-  footer { padding: 40px 0 56px; font-size: 13px; color: var(--cream-dim); background: var(--red-night); }
-  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  footer { font-size: 13px; color: var(--cream-dim); background: var(--night-deep); }
+  footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 8px 0 56px; }
 
   @media (max-width: 900px) {
     .bar nav { display: none; }
@@ -255,7 +369,7 @@
     .latest, .story, .work, .sub-grid, .x-area { grid-template-columns: 1fr; gap: 40px; }
     .archive { grid-template-columns: 1fr 1fr; }
     .vows { grid-template-columns: 1fr; }
-    .vow, .vow + .vow { padding: 24px 0; border-left: 0; border-bottom: 1px solid rgba(255,244,230,.25); }
+    .vow, .vow + .vow { padding: 24px 0; border-left: 0; border-bottom: 1px solid var(--line); }
     .week { grid-template-columns: repeat(4, 1fr); }
     .head { flex-direction: column; align-items: start; }
   }
@@ -267,10 +381,19 @@
     .side a { grid-template-columns: 120px 1fr; }
     .castle { transform: scale(.75); transform-origin: bottom; }
     .goal { min-width: 0; }
+    .sun { top: 64px; right: 16px; width: 56px; }
+    /* スマホでは文字を絵の上に分けて、絵と重ならないようにする */
+    .scene { height: auto; display: flex; flex-direction: column; padding-top: 24px; }
+    .scene figcaption { position: static; order: -1; width: calc(100% - 32px); margin: 0 auto; font-size: 13px; }
+    .scene figcaption b { font-size: 18px; }
+    .scene svg { position: relative; height: 190px; }
+    .scene-sleep svg { height: 130px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .unit { animation: none; }
     .unit.u2 { right: 32%; } .unit.u3 { right: 50%; }
+    .car { animation: none; left: 30%; }
+    .smoke path, .flame { animation: none; }
     .beam.fire { animation-duration: .01s; }
     html { scroll-behavior: auto; }
   }
@@ -279,7 +402,52 @@
 <body>
 <a class="skip" href="#latest">本文へ移動</a>
 
-<header class="hero">
+<!-- 絵の部品（車・UFOの宿・木・猫・るる）。にゃんこ大戦争のキャラは使わず、すべてオリジナル -->
+<svg class="defs" aria-hidden="true">
+  <symbol id="car" viewBox="0 0 120 56">
+    <path class="c-red" d="M6 40 Q6 30 16 28 L36 26 L48 12 Q51 8 58 8 L84 8 Q91 8 95 13 L106 27 Q116 29 116 39 L116 44 L6 44 Z"/>
+    <path class="c-sky" d="M50 14 Q52 12 56 12 L70 12 L70 26 L42 26 Z"/>
+    <path class="c-sky" d="M74 12 L86 12 Q89 12 91 15 L100 26 L74 26 Z"/>
+    <circle class="c-skin" cx="60" cy="21" r="5"/>
+    <path class="c-ink" d="M55 20 Q55 14 60 14 Q66 14 65 20 Q62 17 55 20 Z"/>
+    <path class="c-cat" d="M80 26 L80 19 Q80 15 85 15 Q90 15 90 19 L90 26 Z M81 17 L82 12 L85 15 Z M89 17 L88 12 L85 15 Z"/>
+    <rect class="c-gold" x="108" y="31" width="7" height="4" rx="2"/>
+    <circle class="c-ink" cx="32" cy="44" r="9"/><circle class="c-silver" cx="32" cy="44" r="3.5"/>
+    <circle class="c-ink" cx="92" cy="44" r="9"/><circle class="c-silver" cx="92" cy="44" r="3.5"/>
+  </symbol>
+  <symbol id="dome" viewBox="440 50 320 186">
+    <path class="c-silver" d="M452 228 L748 228 L714 168 L486 168 Z"/>
+    <path class="c-silver" d="M496 170 C496 96 542 60 600 60 C658 60 704 96 704 170 Z"/>
+    <path class="c-silver-d" d="M486 168 L714 168 L712 174 L488 174 Z"/>
+    <path class="seam" d="M600 60 V168 M600 60 C566 66 548 110 546 168 M600 60 C634 66 652 110 654 168 M508 132 Q600 142 692 132 M522 102 Q600 110 678 102 M548 76 Q600 82 652 76 M520 174 L498 228 M560 174 L548 228 M640 174 L652 228 M680 174 L702 228 M470 202 L730 202"/>
+    <path class="pipe" d="M694 168 V104 L704 94 V58"/>
+    <path class="c-silver-d" d="M566 150 L634 150 L640 162 L560 162 Z"/>
+    <rect class="c-ink" x="576" y="162" width="48" height="66"/>
+    <rect class="c-door" x="582" y="168" width="36" height="60"/>
+  </symbol>
+  <symbol id="tree" viewBox="0 0 80 140">
+    <rect class="c-wood" x="36" y="88" width="8" height="52"/>
+    <circle fill="currentColor" cx="40" cy="48" r="34"/>
+    <circle fill="currentColor" cx="20" cy="78" r="22"/>
+    <circle fill="currentColor" cx="60" cy="76" r="24"/>
+  </symbol>
+  <symbol id="cat" viewBox="0 0 60 70">
+    <path fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" d="M44 62 Q58 60 54 44"/>
+    <path fill="currentColor" d="M14 68 Q10 44 22 36 L38 36 Q50 44 46 68 Z"/>
+    <circle fill="currentColor" cx="30" cy="26" r="14"/>
+    <path fill="currentColor" d="M17 21 L18 6 L28 14 Z M43 21 L42 6 L32 14 Z"/>
+    <circle class="c-eye" cx="25" cy="25" r="1.9"/><circle class="c-eye" cx="35" cy="25" r="1.9"/>
+  </symbol>
+  <symbol id="ruru" viewBox="0 0 50 80">
+    <path class="c-red" d="M7 80 Q5 46 25 44 Q45 46 43 80 Z"/>
+    <circle class="c-skin" cx="25" cy="30" r="13"/>
+    <path class="c-ink" d="M12 29 Q11 15 25 15 Q39 15 38 29 Q33 22 24 23 Q17 24 12 29 Z"/>
+    <circle class="c-ink" cx="21" cy="32" r="1.6"/><circle class="c-ink" cx="29" cy="32" r="1.6"/>
+  </symbol>
+</svg>
+
+<header class="hero sky-day">
+  <div class="sun" aria-hidden="true"></div>
   <div class="wrap bar">
     <a class="logo" href="#">るるゲーム</a>
     <nav aria-label="ページ内リンク">
@@ -305,6 +473,12 @@
   </div>
 
   <div class="lane" aria-hidden="true">
+    <svg class="hills" viewBox="0 0 1200 110" preserveAspectRatio="none">
+      <path class="c-hill" d="M0 72 Q100 22 220 52 T460 42 T720 30 T980 46 T1200 36 V110 H0 Z"/>
+      <rect class="c-road" y="80" width="1200" height="10"/>
+      <rect class="c-grass" y="90" width="1200" height="20"/>
+    </svg>
+    <svg class="car" viewBox="0 0 120 56"><use href="#car"/></svg>
     <div class="castle enemy"><span class="flag">敵の城</span><div class="roof"></div><div class="body"></div><div class="door"></div></div>
     <div class="unit"></div>
     <div class="unit u2"></div>
@@ -327,7 +501,7 @@
 </div>
 
 <main>
-  <section id="latest">
+  <section id="latest" class="sky-day">
     <div class="wrap">
       <div class="head">
         <div>
@@ -344,7 +518,7 @@
     </div>
   </section>
 
-  <section id="shorts" class="deep">
+  <section id="shorts" class="sky-day">
     <div class="wrap">
       <div class="head">
         <div>
@@ -359,7 +533,27 @@
     </div>
   </section>
 
-  <section id="archive">
+  <figure class="scene scene-arrive">
+    <svg viewBox="0 0 1200 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <circle class="c-cream" cx="1010" cy="72" r="30"/>
+      <path class="c-hill" d="M0 200 Q150 140 300 180 T600 170 T900 160 T1200 185 V260 H0 Z"/>
+      <use href="#tree" class="t2" x="30" y="62" width="100" height="170"/>
+      <use href="#tree" class="t1" x="130" y="42" width="120" height="190"/>
+      <use href="#tree" class="t2" x="250" y="82" width="90" height="150"/>
+      <use href="#tree" class="t1" x="330" y="72" width="100" height="160"/>
+      <use href="#tree" class="t1" x="840" y="72" width="100" height="160"/>
+      <use href="#tree" class="t2" x="930" y="52" width="120" height="180"/>
+      <use href="#tree" class="t1" x="1050" y="82" width="90" height="150"/>
+      <use href="#tree" class="t2" x="1120" y="62" width="100" height="170"/>
+      <rect class="c-grass" y="226" width="1200" height="34"/>
+      <path class="c-road" d="M380 260 Q520 236 600 228 Q690 236 820 260 Z"/>
+      <use href="#dome" x="440" y="50" width="320" height="186"/>
+      <use href="#car" x="760" y="190" width="96" height="45"/>
+    </svg>
+    <figcaption><b>ひるすぎ</b>森の中のUFOに到着</figcaption>
+  </figure>
+
+  <section id="archive" class="sky-day">
     <div class="wrap">
       <div class="head">
         <div>
@@ -374,7 +568,7 @@
     </div>
   </section>
 
-  <section id="sub" class="deep">
+  <section id="sub" class="sky-day">
     <div class="wrap">
       <div class="head">
         <div>
@@ -391,7 +585,32 @@
     </div>
   </section>
 
-  <section id="story" class="night">
+  <figure class="scene scene-bbq">
+    <svg viewBox="0 0 1200 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <circle class="c-gold" cx="890" cy="214" r="72"/>
+      <path class="c-red-deep" d="M0 212 L120 150 L230 200 L360 132 L500 206 L640 162 L760 212 L880 176 L1000 206 L1120 150 L1200 190 V260 H0 Z"/>
+      <use href="#dome" x="150" y="150" width="140" height="81"/>
+      <rect class="c-red-night" y="228" width="1200" height="32"/>
+      <use href="#cat" class="cat-o" x="436" y="170" width="52" height="61"/>
+      <use href="#ruru" x="502" y="150" width="50" height="80"/>
+      <path class="pipe" d="M580 228 L592 194 M620 228 L608 194 M600 228 V194"/>
+      <path class="c-ink" d="M558 180 Q600 216 642 180 Z"/>
+      <rect class="c-fire" x="566" y="179" width="68" height="4" rx="2"/>
+      <rect class="c-silver-d" x="554" y="175" width="92" height="5" rx="2"/>
+      <rect class="c-meat" x="566" y="166" width="18" height="10" rx="4"/>
+      <rect class="c-meat" x="591" y="166" width="18" height="10" rx="4"/>
+      <rect class="c-meat" x="616" y="166" width="18" height="10" rx="4"/>
+      <g class="smoke">
+        <path d="M586 158 Q574 144 588 130 Q600 118 590 102"/>
+        <path d="M614 158 Q626 140 612 126 Q600 112 614 96"/>
+      </g>
+      <use href="#cat" class="cat-g" x="660" y="170" width="52" height="61"/>
+      <use href="#cat" class="cat-k" x="722" y="178" width="45" height="53"/>
+    </svg>
+    <figcaption><b>ゆうがた</b>仲間の猫たちと、お肉を焼く</figcaption>
+  </figure>
+
+  <section id="story" class="sky-night">
     <div class="wrap">
       <div class="story">
         <h2>ゲームをほとんどしなかった僕が、にゃんこの先生になるまで。</h2>
@@ -419,7 +638,7 @@
     </div>
   </section>
 
-  <section id="schedule" class="deep">
+  <section id="schedule" class="sky-night stars">
     <div class="wrap">
       <div class="head">
         <div>
@@ -451,7 +670,31 @@
     </div>
   </section>
 
-  <section id="work">
+  <figure class="scene scene-fire stars">
+    <svg viewBox="0 0 1200 260" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <radialGradient id="glow"><stop class="glow-a" offset="0"/><stop class="glow-b" offset="1"/></radialGradient>
+      </defs>
+      <path class="c-cream" d="M895 44.7 A26 26 0 1 0 895 87.3 A24 24 0 0 1 895 44.7 Z"/>
+      <use href="#tree" class="t-night" x="20" y="70" width="100" height="165"/>
+      <use href="#tree" class="t-night" x="110" y="90" width="80" height="145"/>
+      <use href="#tree" class="t-night" x="1040" y="80" width="90" height="155"/>
+      <use href="#tree" class="t-night" x="1110" y="60" width="100" height="175"/>
+      <use href="#dome" x="230" y="140" width="190" height="110"/>
+      <rect class="c-night-g" y="228" width="1200" height="32"/>
+      <circle cx="600" cy="214" r="150" fill="url(#glow)"/>
+      <use href="#cat" class="cat-g" x="430" y="172" width="50" height="58"/>
+      <use href="#ruru" x="494" y="152" width="48" height="77"/>
+      <path class="log" d="M570 230 L630 214 M570 214 L630 230"/>
+      <path class="c-fire flame" d="M600 222 C578 210 582 188 596 168 C598 184 607 186 604 172 C620 190 624 212 600 222 Z"/>
+      <path class="c-gold flame" d="M600 222 C589 214 591 200 600 188 C607 200 613 213 600 222 Z"/>
+      <use href="#cat" class="cat-o" x="662" y="172" width="50" height="58"/>
+      <use href="#cat" class="cat-k" x="724" y="180" width="43" height="50"/>
+    </svg>
+    <figcaption><b>よる</b>焚き火をかこんで、星を見上げる</figcaption>
+  </figure>
+
+  <section id="work" class="sky-night stars">
     <div class="wrap work">
       <div>
         <h2>お仕事の相談</h2>
@@ -474,6 +717,17 @@
 </main>
 
 <footer>
+  <figure class="scene scene-sleep stars">
+    <svg viewBox="0 0 1200 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <use href="#tree" class="t-night" x="380" y="40" width="100" height="150"/>
+      <use href="#tree" class="t-night" x="720" y="30" width="110" height="160"/>
+      <use href="#dome" class="dome-sleep" x="480" y="40" width="240" height="140"/>
+      <text class="zzz" x="690" y="58">Z</text>
+      <text class="zzz" x="712" y="38" style="font-size:16px">z</text>
+      <rect class="c-night-g" y="174" width="1200" height="26"/>
+    </svg>
+    <figcaption><b>おやすみ</b>また次の配信で会いましょう</figcaption>
+  </figure>
   <div class="wrap">
     <span>&copy; <span id="year"></span> るるゲーム ／ <a href="https://www.youtube.com/@RuLgames" target="_blank" rel="noopener">YouTube</a> ／ <a href="https://www.youtube.com/channel/UCeI7tXU8GgywzL10AEMPzYQ" target="_blank" rel="noopener">サブチャンネル</a> ／ <a href="https://x.com/Uno_RuL" target="_blank" rel="noopener">X</a></span>
     <span>「にゃんこ大戦争」は株式会社ポノスのゲームです。このサイトは非公式のファン活動として運営しています。</span>
