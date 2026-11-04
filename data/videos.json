@@ -1,12 +1,30 @@
 {
  "videos": [
   {
+   "id": "ZLie0cOMfd0",
+   "title": "味方のワープについて",
+   "published": "2026-11-04T10:00:17+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 7361,
+   "excerpt": ""
+  },
+  {
+   "id": "Z_4RuYK459w",
+   "title": "超極について",
+   "published": "2026-11-03T22:00:16+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 24059,
+   "excerpt": ""
+  },
+  {
    "id": "qhq6UXsYTX0",
    "title": "ちび達の本能",
    "published": "2026-11-03T10:03:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 10544,
+   "views": 14441,
    "excerpt": ""
   },
   {
@@ -15,7 +33,7 @@
    "published": "2026-11-03T08:54:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 9654,
+   "views": 12887,
    "excerpt": ""
   },
   {
@@ -24,7 +42,7 @@
    "published": "2026-11-02T22:30:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 21395,
+   "views": 24745,
    "excerpt": ""
   },
   {
@@ -33,7 +51,7 @@
    "published": "2026-11-02T14:26:50+00:00",
    "short": true,
    "kind": "short",
-   "views": 39352,
+   "views": 41298,
    "excerpt": ""
   },
   {
@@ -42,7 +60,7 @@
    "published": "2026-11-02T11:21:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 24861,
+   "views": 28280,
    "excerpt": ""
   },
   {
@@ -51,7 +69,7 @@
    "published": "2026-11-01T22:13:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 27048,
+   "views": 29926,
    "excerpt": ""
   },
   {
@@ -60,7 +78,7 @@
    "published": "2026-10-31T23:37:12+00:00",
    "short": true,
    "kind": "short",
-   "views": 135037,
+   "views": 148321,
    "excerpt": ""
   },
   {
@@ -69,7 +87,7 @@
    "published": "2026-10-31T22:32:05+00:00",
    "short": true,
    "kind": "short",
-   "views": 25481,
+   "views": 27685,
    "excerpt": ""
   },
   {
@@ -78,7 +96,7 @@
    "published": "2026-10-31T12:14:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 11619,
+   "views": 12566,
    "excerpt": ""
   },
   {
@@ -87,7 +105,7 @@
    "published": "2026-10-31T11:14:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 26283,
+   "views": 27886,
    "excerpt": ""
   },
   {
@@ -96,7 +114,7 @@
    "published": "2026-10-31T09:48:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 57966,
+   "views": 62360,
    "excerpt": ""
   },
   {
@@ -105,7 +123,7 @@
    "published": "2026-10-30T22:30:08+00:00",
    "short": true,
    "kind": "short",
-   "views": 24599,
+   "views": 24951,
    "excerpt": ""
   },
   {
@@ -114,7 +132,7 @@
    "published": "2026-10-30T10:30:34+00:00",
    "short": true,
    "kind": "short",
-   "views": 22291,
+   "views": 22426,
    "excerpt": ""
   },
   {
@@ -141,7 +159,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 7396,
+   "views": 7470,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -150,7 +168,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 13388,
+   "views": 13555,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -159,7 +177,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 18684,
+   "views": 18757,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -168,7 +186,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3546,
+   "views": 3550,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -177,7 +195,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 22836,
+   "views": 22894,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -186,7 +204,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 16269,
+   "views": 16347,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -195,7 +213,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 11690,
+   "views": 11740,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -204,7 +222,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 13904,
+   "views": 13976,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -213,7 +231,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 17526,
+   "views": 17570,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -222,7 +240,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11329,
+   "views": 11346,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -231,7 +249,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 33903,
+   "views": 33991,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -240,7 +258,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 20612,
+   "views": 20756,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -249,7 +267,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 12943,
+   "views": 12945,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -258,7 +276,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 71371,
+   "views": 71455,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -267,7 +285,7 @@
    "published": "2026-04-02T11:31:21+00:00",
    "short": false,
    "kind": "video",
-   "views": 2704,
+   "views": 2709,
    "excerpt": "白のダチョウだったら難易度変わっただろうな…"
   },
   {
@@ -276,7 +294,7 @@
    "published": "2026-03-20T03:03:54+00:00",
    "short": false,
    "kind": "video",
-   "views": 1884,
+   "views": 1887,
    "excerpt": "むっず…でも面白かった。"
   },
   {
@@ -285,7 +303,7 @@
    "published": "2024-10-19T13:29:42+00:00",
    "short": false,
    "kind": "live",
-   "views": 3332,
+   "views": 3333,
    "excerpt": "【GM】ディーラー・レバニラ改めどんこい上田さん"
   },
   {
@@ -294,7 +312,7 @@
    "published": "2024-08-27T15:54:51+00:00",
    "short": false,
    "kind": "live",
-   "views": 2615,
+   "views": 2616,
    "excerpt": "www.youtube.com/@dontokoi_ueda"
   },
   {
@@ -303,7 +321,7 @@
    "published": "2024-05-10T15:11:52+00:00",
    "short": false,
    "kind": "live",
-   "views": 1781,
+   "views": 1782,
    "excerpt": "①1つ登ったら相手の1体を排除できる"
   },
   {
@@ -312,7 +330,7 @@
    "published": "2024-03-09T18:25:39+00:00",
    "short": false,
    "kind": "live",
-   "views": 2525,
+   "views": 2526,
    "excerpt": "アーカイブやメンバー限定企画などが見れます！"
   },
   {
@@ -503,7 +521,7 @@
    "published": "2026-07-11T22:30:29+00:00",
    "short": true,
    "kind": "short",
-   "views": 6182,
+   "views": 6183,
    "excerpt": ""
   },
   {
@@ -539,7 +557,7 @@
    "published": "2026-07-09T23:00:00+00:00",
    "short": true,
    "kind": "short",
-   "views": 2763,
+   "views": 2764,
    "excerpt": ""
   },
   {
