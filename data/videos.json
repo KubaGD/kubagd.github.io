@@ -1,12 +1,39 @@
 {
  "videos": [
   {
+   "id": "sCh511qPWgM",
+   "title": "悪魔のベロベロで楽しむ男",
+   "published": "2026-11-05T13:12:20+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 3244,
+   "excerpt": ""
+  },
+  {
+   "id": "A1XYO8ETBqE",
+   "title": "次の新メタルはゴリラあるか？",
+   "published": "2026-11-05T12:43:08+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 4222,
+   "excerpt": ""
+  },
+  {
+   "id": "TCSdnLWkbDk",
+   "title": "ヴェルヴェーヌのLv.60について",
+   "published": "2026-11-04T22:30:04+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 8598,
+   "excerpt": ""
+  },
+  {
    "id": "ZLie0cOMfd0",
    "title": "味方のワープについて",
    "published": "2026-11-04T10:00:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 7361,
+   "views": 10704,
    "excerpt": ""
   },
   {
@@ -15,7 +42,7 @@
    "published": "2026-11-03T22:00:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 24059,
+   "views": 30574,
    "excerpt": ""
   },
   {
@@ -24,7 +51,7 @@
    "published": "2026-11-03T10:03:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 14441,
+   "views": 15521,
    "excerpt": ""
   },
   {
@@ -33,7 +60,7 @@
    "published": "2026-11-03T08:54:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 12887,
+   "views": 14786,
    "excerpt": ""
   },
   {
@@ -42,7 +69,7 @@
    "published": "2026-11-02T22:30:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 24745,
+   "views": 26649,
    "excerpt": ""
   },
   {
@@ -51,7 +78,7 @@
    "published": "2026-11-02T14:26:50+00:00",
    "short": true,
    "kind": "short",
-   "views": 41298,
+   "views": 42487,
    "excerpt": ""
   },
   {
@@ -60,7 +87,7 @@
    "published": "2026-11-02T11:21:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 28280,
+   "views": 30116,
    "excerpt": ""
   },
   {
@@ -69,7 +96,7 @@
    "published": "2026-11-01T22:13:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 29926,
+   "views": 32785,
    "excerpt": ""
   },
   {
@@ -78,7 +105,7 @@
    "published": "2026-10-31T23:37:12+00:00",
    "short": true,
    "kind": "short",
-   "views": 148321,
+   "views": 153806,
    "excerpt": ""
   },
   {
@@ -87,7 +114,7 @@
    "published": "2026-10-31T22:32:05+00:00",
    "short": true,
    "kind": "short",
-   "views": 27685,
+   "views": 28307,
    "excerpt": ""
   },
   {
@@ -96,7 +123,7 @@
    "published": "2026-10-31T12:14:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 12566,
+   "views": 12735,
    "excerpt": ""
   },
   {
@@ -105,7 +132,7 @@
    "published": "2026-10-31T11:14:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 27886,
+   "views": 28406,
    "excerpt": ""
   },
   {
@@ -159,7 +186,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 7470,
+   "views": 7571,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -168,7 +195,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 13555,
+   "views": 13786,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -177,7 +204,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 18757,
+   "views": 18858,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -186,7 +213,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3550,
+   "views": 3556,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -195,7 +222,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 22894,
+   "views": 22974,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -204,7 +231,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 16347,
+   "views": 16387,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -213,7 +240,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 11740,
+   "views": 11782,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -222,7 +249,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 13976,
+   "views": 14042,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -231,7 +258,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 17570,
+   "views": 17637,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -240,7 +267,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11346,
+   "views": 11360,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -249,7 +276,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 33991,
+   "views": 34039,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -258,7 +285,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 20756,
+   "views": 20911,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -267,7 +294,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 12945,
+   "views": 12952,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -276,7 +303,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 71455,
+   "views": 71564,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -285,7 +312,7 @@
    "published": "2026-04-02T11:31:21+00:00",
    "short": false,
    "kind": "video",
-   "views": 2709,
+   "views": 2714,
    "excerpt": "白のダチョウだったら難易度変わっただろうな…"
   },
   {
@@ -294,7 +321,7 @@
    "published": "2026-03-20T03:03:54+00:00",
    "short": false,
    "kind": "video",
-   "views": 1887,
+   "views": 1904,
    "excerpt": "むっず…でも面白かった。"
   },
   {
@@ -330,7 +357,7 @@
    "published": "2024-03-09T18:25:39+00:00",
    "short": false,
    "kind": "live",
-   "views": 2526,
+   "views": 2529,
    "excerpt": "アーカイブやメンバー限定企画などが見れます！"
   },
   {
@@ -339,7 +366,7 @@
    "published": "2024-01-26T21:52:30+00:00",
    "short": false,
    "kind": "live",
-   "views": 2549,
+   "views": 2551,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -404,7 +431,7 @@
    "published": "2026-10-20T03:34:22+00:00",
    "short": false,
    "kind": "live",
-   "views": 994,
+   "views": 995,
    "excerpt": ""
   },
   {
@@ -413,7 +440,7 @@
    "published": "2026-10-18T15:20:24+00:00",
    "short": false,
    "kind": "live",
-   "views": 563,
+   "views": 564,
    "excerpt": "ポケモン金で止まっています！ほぼほぼ何も知りません！初見楽しみます！！"
   },
   {
@@ -422,7 +449,7 @@
    "published": "2026-10-16T04:16:19+00:00",
    "short": false,
    "kind": "live",
-   "views": 1375,
+   "views": 1376,
    "excerpt": ""
   },
   {
@@ -467,7 +494,7 @@
    "published": "2026-08-17T13:12:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 1741,
+   "views": 1744,
    "excerpt": ""
   },
   {
@@ -512,7 +539,7 @@
    "published": "2026-07-12T22:30:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 2915,
+   "views": 2916,
    "excerpt": ""
   },
   {
@@ -593,7 +620,7 @@
    "published": "2026-02-10T10:00:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 701,
+   "views": 703,
    "excerpt": ""
   },
   {
@@ -602,7 +629,7 @@
    "published": "2026-02-09T15:47:47+00:00",
    "short": true,
    "kind": "short",
-   "views": 1843,
+   "views": 1844,
    "excerpt": ""
   },
   {
