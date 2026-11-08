@@ -1,12 +1,21 @@
 {
  "videos": [
   {
+   "id": "tkWF545DiRU",
+   "title": "ハデス、サキ、クレイG、どれを開けるか？",
+   "published": "2026-11-07T22:30:28+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6914,
+   "excerpt": ""
+  },
+  {
    "id": "WLW8cGSIOrE",
    "title": "Lv.60どれを開けるか？",
    "published": "2026-11-06T22:30:15+00:00",
    "short": true,
    "kind": "short",
-   "views": 13038,
+   "views": 13715,
    "excerpt": ""
   },
   {
@@ -15,7 +24,7 @@
    "published": "2026-11-06T22:30:05+00:00",
    "short": true,
    "kind": "short",
-   "views": 10634,
+   "views": 11228,
    "excerpt": ""
   },
   {
@@ -33,7 +42,7 @@
    "published": "2026-11-06T07:00:28+00:00",
    "short": true,
    "kind": "short",
-   "views": 9655,
+   "views": 11208,
    "excerpt": ""
   },
   {
@@ -42,7 +51,7 @@
    "published": "2026-11-06T02:19:38+00:00",
    "short": true,
    "kind": "short",
-   "views": 17175,
+   "views": 18166,
    "excerpt": ""
   },
   {
@@ -51,7 +60,7 @@
    "published": "2026-11-05T22:30:39+00:00",
    "short": true,
    "kind": "short",
-   "views": 10593,
+   "views": 10853,
    "excerpt": ""
   },
   {
@@ -60,7 +69,7 @@
    "published": "2026-11-05T13:12:20+00:00",
    "short": true,
    "kind": "short",
-   "views": 10964,
+   "views": 11812,
    "excerpt": ""
   },
   {
@@ -69,7 +78,7 @@
    "published": "2026-11-05T12:43:08+00:00",
    "short": true,
    "kind": "short",
-   "views": 9771,
+   "views": 9856,
    "excerpt": ""
   },
   {
@@ -78,7 +87,7 @@
    "published": "2026-11-04T22:30:04+00:00",
    "short": true,
    "kind": "short",
-   "views": 12268,
+   "views": 12626,
    "excerpt": ""
   },
   {
@@ -87,7 +96,7 @@
    "published": "2026-11-04T10:00:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 12581,
+   "views": 12827,
    "excerpt": ""
   },
   {
@@ -96,7 +105,7 @@
    "published": "2026-11-03T22:00:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 36621,
+   "views": 36896,
    "excerpt": ""
   },
   {
@@ -105,7 +114,7 @@
    "published": "2026-11-03T10:03:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 16528,
+   "views": 16582,
    "excerpt": ""
   },
   {
@@ -114,7 +123,7 @@
    "published": "2026-11-03T08:54:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 16450,
+   "views": 16503,
    "excerpt": ""
   },
   {
@@ -123,7 +132,7 @@
    "published": "2026-11-02T22:30:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 28402,
+   "views": 28589,
    "excerpt": ""
   },
   {
@@ -132,7 +141,7 @@
    "published": "2026-11-02T14:26:50+00:00",
    "short": true,
    "kind": "short",
-   "views": 43498,
+   "views": 43589,
    "excerpt": ""
   },
   {
@@ -240,7 +249,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 7873,
+   "views": 7913,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -249,7 +258,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 14183,
+   "views": 14250,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -258,7 +267,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 19050,
+   "views": 19106,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -267,7 +276,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3565,
+   "views": 3572,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -276,7 +285,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 23131,
+   "views": 23167,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -285,7 +294,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 16534,
+   "views": 16568,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -294,7 +303,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 11890,
+   "views": 11923,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -303,7 +312,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 14198,
+   "views": 14251,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -312,7 +321,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 17934,
+   "views": 18021,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -321,7 +330,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11391,
+   "views": 11405,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -330,7 +339,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 34190,
+   "views": 34235,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -339,7 +348,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 21119,
+   "views": 21144,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -348,7 +357,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 12961,
+   "views": 12963,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -357,7 +366,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 71765,
+   "views": 71798,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -402,7 +411,7 @@
    "published": "2024-05-10T15:11:52+00:00",
    "short": false,
    "kind": "live",
-   "views": 1782,
+   "views": 1783,
    "excerpt": "①1つ登ったら相手の1体を排除できる"
   },
   {
