@@ -1,12 +1,21 @@
 {
  "videos": [
   {
+   "id": "cvYRXrIddyQ",
+   "title": "アイスって強いよな",
+   "published": "2026-11-11T22:00:15+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 0,
+   "excerpt": ""
+  },
+  {
    "id": "-BmXVxMVPX8",
    "title": "成田がヤバすぎる",
    "published": "2026-11-11T08:00:12+00:00",
    "short": true,
    "kind": "short",
-   "views": 9593,
+   "views": 16290,
    "excerpt": ""
   },
   {
@@ -15,7 +24,7 @@
    "published": "2026-11-10T22:49:34+00:00",
    "short": true,
    "kind": "short",
-   "views": 11548,
+   "views": 13763,
    "excerpt": ""
   },
   {
@@ -24,7 +33,7 @@
    "published": "2026-11-10T03:34:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 35608,
+   "views": 37742,
    "excerpt": ""
   },
   {
@@ -33,7 +42,7 @@
    "published": "2026-11-10T03:06:09+00:00",
    "short": true,
    "kind": "short",
-   "views": 29339,
+   "views": 30958,
    "excerpt": ""
   },
   {
@@ -42,7 +51,7 @@
    "published": "2026-11-08T22:30:05+00:00",
    "short": true,
    "kind": "short",
-   "views": 7004,
+   "views": 7314,
    "excerpt": ""
   },
   {
@@ -51,7 +60,7 @@
    "published": "2026-11-08T10:30:12+00:00",
    "short": true,
    "kind": "short",
-   "views": 11566,
+   "views": 11687,
    "excerpt": ""
   },
   {
@@ -60,7 +69,7 @@
    "published": "2026-11-07T22:30:28+00:00",
    "short": true,
    "kind": "short",
-   "views": 10299,
+   "views": 10409,
    "excerpt": ""
   },
   {
@@ -69,7 +78,7 @@
    "published": "2026-11-06T22:30:15+00:00",
    "short": true,
    "kind": "short",
-   "views": 14830,
+   "views": 14902,
    "excerpt": ""
   },
   {
@@ -78,7 +87,7 @@
    "published": "2026-11-06T22:30:05+00:00",
    "short": true,
    "kind": "short",
-   "views": 13321,
+   "views": 13403,
    "excerpt": ""
   },
   {
@@ -96,7 +105,7 @@
    "published": "2026-11-06T07:00:28+00:00",
    "short": true,
    "kind": "short",
-   "views": 14249,
+   "views": 14297,
    "excerpt": ""
   },
   {
@@ -105,7 +114,7 @@
    "published": "2026-11-06T02:19:38+00:00",
    "short": true,
    "kind": "short",
-   "views": 20966,
+   "views": 21036,
    "excerpt": ""
   },
   {
@@ -114,7 +123,7 @@
    "published": "2026-11-05T22:30:39+00:00",
    "short": true,
    "kind": "short",
-   "views": 12635,
+   "views": 12706,
    "excerpt": ""
   },
   {
@@ -123,7 +132,7 @@
    "published": "2026-11-05T13:12:20+00:00",
    "short": true,
    "kind": "short",
-   "views": 13440,
+   "views": 13478,
    "excerpt": ""
   },
   {
@@ -132,7 +141,7 @@
    "published": "2026-11-05T12:43:08+00:00",
    "short": true,
    "kind": "short",
-   "views": 10401,
+   "views": 10428,
    "excerpt": ""
   },
   {
@@ -303,7 +312,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 8164,
+   "views": 8180,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -312,7 +321,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 14662,
+   "views": 14700,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -321,7 +330,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 19383,
+   "views": 19401,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -330,7 +339,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3585,
+   "views": 3589,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -339,7 +348,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 23387,
+   "views": 23406,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -348,7 +357,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 16780,
+   "views": 16795,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -357,7 +366,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 12086,
+   "views": 12095,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -366,7 +375,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 14426,
+   "views": 14465,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -375,7 +384,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 18308,
+   "views": 18367,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -384,7 +393,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11469,
+   "views": 11475,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -393,7 +402,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 34425,
+   "views": 34437,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -402,7 +411,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 21385,
+   "views": 21398,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -411,7 +420,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 12971,
+   "views": 12972,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -420,7 +429,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 72041,
+   "views": 72051,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -429,7 +438,7 @@
    "published": "2026-04-02T11:31:21+00:00",
    "short": false,
    "kind": "video",
-   "views": 2738,
+   "views": 2739,
    "excerpt": "白のダチョウだったら難易度変わっただろうな…"
   },
   {
@@ -447,7 +456,7 @@
    "published": "2024-10-19T13:29:42+00:00",
    "short": false,
    "kind": "live",
-   "views": 3338,
+   "views": 3342,
    "excerpt": "【GM】ディーラー・レバニラ改めどんこい上田さん"
   },
   {
@@ -656,7 +665,7 @@
    "published": "2026-07-12T22:30:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 2920,
+   "views": 2921,
    "excerpt": ""
   },
   {
@@ -701,7 +710,7 @@
    "published": "2026-07-09T23:00:00+00:00",
    "short": true,
    "kind": "short",
-   "views": 2767,
+   "views": 2768,
    "excerpt": ""
   },
   {
