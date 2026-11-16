@@ -1,12 +1,57 @@
 {
  "videos": [
   {
+   "id": "Z4cXtt5ukd8",
+   "title": "逆カバ雑談【にゃんこ大戦争】",
+   "published": "2026-11-16T08:09:59+00:00",
+   "short": false,
+   "kind": "live",
+   "views": 5929,
+   "excerpt": "・道義（道徳、モラル、配慮、いわゆる人としての部分）"
+  },
+  {
+   "id": "cfsvEQNdhyM",
+   "title": "どのステージが難しかった？",
+   "published": "2026-11-16T06:30:17+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 5620,
+   "excerpt": ""
+  },
+  {
+   "id": "1G7YZJ8g7o4",
+   "title": "限定キャラってLv.60にした方が良いの？",
+   "published": "2026-11-16T05:23:18+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 10050,
+   "excerpt": ""
+  },
+  {
+   "id": "0xicoRLMq04",
+   "title": "どれ育てる？ハヤブサ、黒フォノウ、黒ルナ、黒ルーノ",
+   "published": "2026-11-16T03:30:56+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 21926,
+   "excerpt": ""
+  },
+  {
+   "id": "f0DIFlV1ah8",
+   "title": "0レジェのオススメキャラ、結局コイツ",
+   "published": "2026-11-16T03:00:27+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6830,
+   "excerpt": ""
+  },
+  {
    "id": "Pspfab2obNw",
    "title": "脱獄ネコにどんどん愛着が湧く男",
    "published": "2026-11-15T05:53:02+00:00",
    "short": true,
    "kind": "short",
-   "views": 13883,
+   "views": 18178,
    "excerpt": ""
   },
   {
@@ -15,7 +60,7 @@
    "published": "2026-11-15T05:22:11+00:00",
    "short": true,
    "kind": "short",
-   "views": 57826,
+   "views": 82647,
    "excerpt": ""
   },
   {
@@ -24,7 +69,7 @@
    "published": "2026-11-14T03:52:57+00:00",
    "short": true,
    "kind": "short",
-   "views": 19455,
+   "views": 20830,
    "excerpt": ""
   },
   {
@@ -33,7 +78,7 @@
    "published": "2026-11-14T02:28:22+00:00",
    "short": true,
    "kind": "short",
-   "views": 37823,
+   "views": 43842,
    "excerpt": ""
   },
   {
@@ -42,7 +87,7 @@
    "published": "2026-11-13T07:12:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 15442,
+   "views": 16956,
    "excerpt": ""
   },
   {
@@ -51,7 +96,7 @@
    "published": "2026-11-12T02:26:44+00:00",
    "short": true,
    "kind": "short",
-   "views": 18058,
+   "views": 18908,
    "excerpt": ""
   },
   {
@@ -60,7 +105,7 @@
    "published": "2026-11-11T22:00:15+00:00",
    "short": true,
    "kind": "short",
-   "views": 9608,
+   "views": 10041,
    "excerpt": ""
   },
   {
@@ -69,7 +114,7 @@
    "published": "2026-11-11T08:00:12+00:00",
    "short": true,
    "kind": "short",
-   "views": 34405,
+   "views": 35019,
    "excerpt": ""
   },
   {
@@ -78,7 +123,7 @@
    "published": "2026-11-10T22:49:34+00:00",
    "short": true,
    "kind": "short",
-   "views": 23773,
+   "views": 24266,
    "excerpt": ""
   },
   {
@@ -87,7 +132,7 @@
    "published": "2026-11-10T03:34:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 48643,
+   "views": 49239,
    "excerpt": ""
   },
   {
@@ -96,7 +141,7 @@
    "published": "2026-11-10T03:06:09+00:00",
    "short": true,
    "kind": "short",
-   "views": 45682,
+   "views": 46757,
    "excerpt": ""
   },
   {
@@ -366,7 +411,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 8556,
+   "views": 8603,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -375,7 +420,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 15483,
+   "views": 15581,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -384,7 +429,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 19756,
+   "views": 19819,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -393,7 +438,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3611,
+   "views": 3612,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -402,7 +447,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 23726,
+   "views": 23772,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -411,7 +456,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 17031,
+   "views": 17050,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -420,7 +465,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 12286,
+   "views": 12302,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -429,7 +474,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 14756,
+   "views": 14779,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -438,7 +483,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 18737,
+   "views": 18772,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -447,7 +492,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11579,
+   "views": 11590,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -456,7 +501,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 34739,
+   "views": 34784,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -465,7 +510,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 21922,
+   "views": 21973,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -474,7 +519,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 12988,
+   "views": 12991,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -483,7 +528,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 72503,
+   "views": 72560,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -492,7 +537,7 @@
    "published": "2026-04-02T11:31:21+00:00",
    "short": false,
    "kind": "video",
-   "views": 2766,
+   "views": 2769,
    "excerpt": "白のダチョウだったら難易度変わっただろうな…"
   },
   {
@@ -510,7 +555,7 @@
    "published": "2024-10-19T13:29:42+00:00",
    "short": false,
    "kind": "live",
-   "views": 3346,
+   "views": 3348,
    "excerpt": "【GM】ディーラー・レバニラ改めどんこい上田さん"
   },
   {
@@ -519,7 +564,7 @@
    "published": "2024-08-27T15:54:51+00:00",
    "short": false,
    "kind": "live",
-   "views": 2622,
+   "views": 2624,
    "excerpt": "www.youtube.com/@dontokoi_ueda"
   },
   {
