@@ -1,12 +1,57 @@
 {
  "videos": [
   {
+   "id": "hDORUqLldzY",
+   "title": "14周年【にゃんこ大戦争】",
+   "published": "2026-11-20T12:36:56+00:00",
+   "short": false,
+   "kind": "live",
+   "views": 256,
+   "excerpt": "生配信中によくいただく質問と、その回答をまとめています！"
+  },
+  {
+   "id": "7kM14gVZwIA",
+   "title": "黒ルナは烈波相手だと特に際立ってくる",
+   "published": "2026-11-20T11:58:17+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 4203,
+   "excerpt": ""
+  },
+  {
+   "id": "05Lq-fzvRM4",
+   "title": "レイカと成田の違い",
+   "published": "2026-11-20T11:38:59+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 1461,
+   "excerpt": ""
+  },
+  {
+   "id": "zNxqDHzomzs",
+   "title": "ダメージアップの本能玉を残すかNPにするか",
+   "published": "2026-11-20T11:12:24+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 1767,
+   "excerpt": ""
+  },
+  {
+   "id": "-PpakuTLiKA",
+   "title": "ネコカンを使ってまで逆カバをやる理由",
+   "published": "2026-11-20T10:31:47+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 4140,
+   "excerpt": ""
+  },
+  {
    "id": "eezfzdU-HkY",
    "title": "異界40階の答え、結局ハデス",
    "published": "2026-11-19T03:54:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 38939,
+   "views": 41776,
    "excerpt": ""
   },
   {
@@ -15,7 +60,7 @@
    "published": "2026-11-19T03:43:32+00:00",
    "short": true,
    "kind": "short",
-   "views": 44035,
+   "views": 48848,
    "excerpt": ""
   },
   {
@@ -24,7 +69,7 @@
    "published": "2026-11-19T02:59:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 18353,
+   "views": 22649,
    "excerpt": ""
   },
   {
@@ -33,7 +78,7 @@
    "published": "2026-11-19T02:16:10+00:00",
    "short": true,
    "kind": "short",
-   "views": 16255,
+   "views": 19187,
    "excerpt": ""
   },
   {
@@ -42,7 +87,7 @@
    "published": "2026-11-19T00:26:24+00:00",
    "short": true,
    "kind": "short",
-   "views": 29678,
+   "views": 38591,
    "excerpt": ""
   },
   {
@@ -51,7 +96,7 @@
    "published": "2026-11-18T07:13:42+00:00",
    "short": true,
    "kind": "short",
-   "views": 18397,
+   "views": 18750,
    "excerpt": ""
   },
   {
@@ -60,7 +105,7 @@
    "published": "2026-11-18T06:08:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 36262,
+   "views": 36941,
    "excerpt": ""
   },
   {
@@ -69,7 +114,7 @@
    "published": "2026-11-18T05:42:25+00:00",
    "short": true,
    "kind": "short",
-   "views": 10085,
+   "views": 10977,
    "excerpt": ""
   },
   {
@@ -78,7 +123,7 @@
    "published": "2026-11-18T05:02:53+00:00",
    "short": true,
    "kind": "short",
-   "views": 27391,
+   "views": 28412,
    "excerpt": ""
   },
   {
@@ -105,7 +150,7 @@
    "published": "2026-11-16T06:30:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 24212,
+   "views": 24736,
    "excerpt": ""
   },
   {
@@ -114,7 +159,7 @@
    "published": "2026-11-16T05:23:18+00:00",
    "short": true,
    "kind": "short",
-   "views": 56764,
+   "views": 57246,
    "excerpt": ""
   },
   {
@@ -501,7 +546,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 9347,
+   "views": 9412,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -510,7 +555,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 16748,
+   "views": 16804,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -519,7 +564,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 20527,
+   "views": 20612,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -528,7 +573,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3637,
+   "views": 3641,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -537,7 +582,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 24192,
+   "views": 24239,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -546,7 +591,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 17378,
+   "views": 17423,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -555,7 +600,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 12561,
+   "views": 12592,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -564,7 +609,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 15137,
+   "views": 15171,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -573,7 +618,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 19266,
+   "views": 19307,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -582,7 +627,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11735,
+   "views": 11741,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -591,7 +636,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 35187,
+   "views": 35215,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -600,7 +645,7 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 22469,
+   "views": 22515,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -609,7 +654,7 @@
    "published": "2026-05-05T11:30:14+00:00",
    "short": false,
    "kind": "video",
-   "views": 13020,
+   "views": 13024,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -618,7 +663,7 @@
    "published": "2026-04-07T08:05:39+00:00",
    "short": false,
    "kind": "video",
-   "views": 73130,
+   "views": 73166,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -636,7 +681,7 @@
    "published": "2026-03-20T03:03:54+00:00",
    "short": false,
    "kind": "video",
-   "views": 1952,
+   "views": 1954,
    "excerpt": "むっず…でも面白かった。"
   },
   {
@@ -645,7 +690,7 @@
    "published": "2024-10-19T13:29:42+00:00",
    "short": false,
    "kind": "live",
-   "views": 3362,
+   "views": 3363,
    "excerpt": "【GM】ディーラー・レバニラ改めどんこい上田さん"
   },
   {
@@ -663,7 +708,7 @@
    "published": "2024-05-10T15:11:52+00:00",
    "short": false,
    "kind": "live",
-   "views": 1793,
+   "views": 1794,
    "excerpt": "①1つ登ったら相手の1体を排除できる"
   },
   {
@@ -672,53 +717,8 @@
    "published": "2024-03-09T18:25:39+00:00",
    "short": false,
    "kind": "live",
-   "views": 2553,
+   "views": 2554,
    "excerpt": "アーカイブやメンバー限定企画などが見れます！"
-  },
-  {
-   "id": "3zHMMEfZo0k",
-   "title": "グランドアビス5枠完走",
-   "published": "2024-01-26T21:52:30+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 2564,
-   "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
-  },
-  {
-   "id": "lgnmGNNNlHE",
-   "title": "にゃんこ別塔バトル【にゃんこ大戦争】",
-   "published": "2024-01-12T15:27:03+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 1423,
-   "excerpt": "①1つ登ったら相手の1体を排除できる"
-  },
-  {
-   "id": "OhY3_mSiz9s",
-   "title": "4人のコラボ大運動会 【熱血行進曲】",
-   "published": "2023-10-13T14:50:20+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 588,
-   "excerpt": "どんとこい上田さん"
-  },
-  {
-   "id": "wldE6PwhQsc",
-   "title": "第2回 バミューダさんと最強編成の戦い【にゃんこ大戦争】",
-   "published": "2023-09-07T15:55:35+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 574,
-   "excerpt": "第一回は私の勝ちでした。"
-  },
-  {
-   "id": "6OqcEfEE0s0",
-   "title": "バミューダさんと最強編成の戦い【にゃんこ大戦争】",
-   "published": "2023-07-29T12:25:28+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 614,
-   "excerpt": "・下記企画内容が難しく見えるので、本番当日はこの4点だけ見れば楽しめるかと思います。"
   }
  ],
  "sub": [
@@ -728,7 +728,7 @@
    "published": "2026-10-20T03:34:22+00:00",
    "short": false,
    "kind": "live",
-   "views": 1007,
+   "views": 1009,
    "excerpt": ""
   },
   {
@@ -791,7 +791,7 @@
    "published": "2026-08-17T13:12:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 1765,
+   "views": 1766,
    "excerpt": ""
   },
   {
@@ -836,7 +836,7 @@
    "published": "2026-07-12T22:30:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 2931,
+   "views": 2932,
    "excerpt": ""
   },
   {
@@ -845,7 +845,7 @@
    "published": "2026-07-11T22:30:29+00:00",
    "short": true,
    "kind": "short",
-   "views": 6189,
+   "views": 6191,
    "excerpt": ""
   },
   {
@@ -917,7 +917,7 @@
    "published": "2026-02-10T10:00:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 717,
+   "views": 719,
    "excerpt": ""
   },
   {
@@ -926,7 +926,7 @@
    "published": "2026-02-09T15:47:47+00:00",
    "short": true,
    "kind": "short",
-   "views": 1850,
+   "views": 1852,
    "excerpt": ""
   },
   {
@@ -953,7 +953,7 @@
    "published": "2024-12-04T20:25:00+00:00",
    "short": true,
    "kind": "short",
-   "views": 865,
+   "views": 866,
    "excerpt": ""
   },
   {
