@@ -1,12 +1,48 @@
 {
  "videos": [
   {
+   "id": "tLuGIspLOg4",
+   "title": "14周年【にゃんこ大戦争】",
+   "published": "2026-11-22T12:52:01+00:00",
+   "short": false,
+   "kind": "live",
+   "views": 2161,
+   "excerpt": "生配信中によくいただく質問と、その回答をまとめています！"
+  },
+  {
+   "id": "CgMh6-QcMSg",
+   "title": "グラヴィティー、研究力以外の強みは？",
+   "published": "2026-11-22T12:03:21+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 7421,
+   "excerpt": ""
+  },
+  {
+   "id": "_kWqkq8E4dE",
+   "title": "クロコックスに攻略法はあるのか？",
+   "published": "2026-11-22T10:53:40+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 7835,
+   "excerpt": ""
+  },
+  {
+   "id": "-dCB9BDSCes",
+   "title": "ハヤブサの評価が高い理由",
+   "published": "2026-11-22T08:59:21+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 11845,
+   "excerpt": ""
+  },
+  {
    "id": "JOKULyhyFSA",
    "title": "カリファはSSSにいけるのか？",
    "published": "2026-11-21T08:29:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 17779,
+   "views": 19327,
    "excerpt": ""
   },
   {
@@ -15,7 +51,7 @@
    "published": "2026-11-21T06:56:48+00:00",
    "short": true,
    "kind": "short",
-   "views": 35850,
+   "views": 38833,
    "excerpt": ""
   },
   {
@@ -24,7 +60,7 @@
    "published": "2026-11-21T04:03:46+00:00",
    "short": true,
    "kind": "short",
-   "views": 24247,
+   "views": 25328,
    "excerpt": ""
   },
   {
@@ -33,7 +69,7 @@
    "published": "2026-11-21T02:51:36+00:00",
    "short": true,
    "kind": "short",
-   "views": 57704,
+   "views": 60204,
    "excerpt": ""
   },
   {
@@ -51,7 +87,7 @@
    "published": "2026-11-20T11:58:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 31084,
+   "views": 31646,
    "excerpt": ""
   },
   {
@@ -60,7 +96,7 @@
    "published": "2026-11-20T11:38:59+00:00",
    "short": true,
    "kind": "short",
-   "views": 10261,
+   "views": 10827,
    "excerpt": ""
   },
   {
@@ -69,7 +105,7 @@
    "published": "2026-11-20T11:12:24+00:00",
    "short": true,
    "kind": "short",
-   "views": 10222,
+   "views": 10554,
    "excerpt": ""
   },
   {
@@ -78,7 +114,7 @@
    "published": "2026-11-20T10:31:47+00:00",
    "short": true,
    "kind": "short",
-   "views": 23054,
+   "views": 24739,
    "excerpt": ""
   },
   {
@@ -87,7 +123,7 @@
    "published": "2026-11-19T03:54:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 46626,
+   "views": 47577,
    "excerpt": ""
   },
   {
@@ -96,7 +132,7 @@
    "published": "2026-11-19T03:43:32+00:00",
    "short": true,
    "kind": "short",
-   "views": 62768,
+   "views": 66101,
    "excerpt": ""
   },
   {
@@ -105,7 +141,7 @@
    "published": "2026-11-19T02:59:16+00:00",
    "short": true,
    "kind": "short",
-   "views": 33621,
+   "views": 35968,
    "excerpt": ""
   },
   {
@@ -114,7 +150,7 @@
    "published": "2026-11-19T02:16:10+00:00",
    "short": true,
    "kind": "short",
-   "views": 23236,
+   "views": 23613,
    "excerpt": ""
   },
   {
@@ -582,7 +618,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 9899,
+   "views": 9994,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -591,7 +627,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 17338,
+   "views": 17427,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -600,7 +636,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 21005,
+   "views": 21043,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -609,7 +645,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3659,
+   "views": 3663,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -618,7 +654,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 24471,
+   "views": 24526,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -627,7 +663,7 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 17597,
+   "views": 17656,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -636,7 +672,7 @@
    "published": "2026-07-31T01:00:26+00:00",
    "short": false,
    "kind": "video",
-   "views": 12730,
+   "views": 12757,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -645,7 +681,7 @@
    "published": "2026-07-24T04:21:56+00:00",
    "short": false,
    "kind": "video",
-   "views": 15360,
+   "views": 15414,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -654,7 +690,7 @@
    "published": "2026-07-14T06:16:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 19561,
+   "views": 19602,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -663,7 +699,7 @@
    "published": "2026-06-20T03:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 11802,
+   "views": 11815,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -672,7 +708,7 @@
    "published": "2026-06-12T09:30:11+00:00",
    "short": false,
    "kind": "video",
-   "views": 35369,
+   "views": 35413,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   },
   {
@@ -681,44 +717,8 @@
    "published": "2026-05-23T23:30:08+00:00",
    "short": false,
    "kind": "video",
-   "views": 22948,
+   "views": 23036,
    "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
-  },
-  {
-   "id": "eP4_hZo5OQE",
-   "title": "【ifの世界】もし○○だったら？5選【にゃんこ大戦争】",
-   "published": "2026-05-05T11:30:14+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 13038,
-   "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
-  },
-  {
-   "id": "wxI-rdyk6JI",
-   "title": "【第二弾】超本能・第四形態にした4体を一挙解説【にゃんこ大戦争】",
-   "published": "2026-04-07T08:05:39+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 73393,
-   "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
-  },
-  {
-   "id": "iULkVl34308",
-   "title": "ダーヴィン5タップ攻略【にゃんこ大戦争】",
-   "published": "2026-04-02T11:31:21+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 2813,
-   "excerpt": "白のダチョウだったら難易度変わっただろうな…"
-  },
-  {
-   "id": "AW_jJq3VtMA",
-   "title": "ジャンボーグ鈴木5タップ攻略【にゃんこ大戦争】",
-   "published": "2026-03-20T03:03:54+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 1966,
-   "excerpt": "むっず…でも面白かった。"
   }
  ],
  "sub": [
@@ -791,7 +791,7 @@
    "published": "2026-08-17T13:12:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 1775,
+   "views": 1776,
    "excerpt": ""
   },
   {
