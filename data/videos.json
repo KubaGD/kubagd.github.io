@@ -1,6 +1,42 @@
 {
  "videos": [
   {
+   "id": "8IPSdLdwOn0",
+   "title": "にゃんこ塔50階 真っ向勝負で戦う男",
+   "published": "2026-11-24T06:10:37+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6038,
+   "excerpt": ""
+  },
+  {
+   "id": "28zdM_cDvds",
+   "title": "にゃんこ塔49階 真っ向勝負で戦う男",
+   "published": "2026-11-24T05:15:56+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6993,
+   "excerpt": ""
+  },
+  {
+   "id": "aHBTQD4H2vo",
+   "title": "にゃんこ塔40階 真っ向勝負で戦う男",
+   "published": "2026-11-24T05:14:55+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 3408,
+   "excerpt": ""
+  },
+  {
+   "id": "1vjVSH3ya3c",
+   "title": "にゃんこ塔32階 真っ向勝負で戦う男",
+   "published": "2026-11-24T05:13:58+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6229,
+   "excerpt": ""
+  },
+  {
    "id": "4rtaABFQHzg",
    "title": "にゃんこ塔×脱獄バージョン【にゃんこ大戦争】",
    "published": "2026-11-23T04:57:12+00:00",
@@ -15,7 +51,7 @@
    "published": "2026-11-23T04:42:41+00:00",
    "short": true,
    "kind": "short",
-   "views": 153833,
+   "views": 184589,
    "excerpt": ""
   },
   {
@@ -33,7 +69,7 @@
    "published": "2026-11-22T12:03:21+00:00",
    "short": true,
    "kind": "short",
-   "views": 25839,
+   "views": 27502,
    "excerpt": ""
   },
   {
@@ -42,7 +78,7 @@
    "published": "2026-11-22T10:53:40+00:00",
    "short": true,
    "kind": "short",
-   "views": 23591,
+   "views": 24126,
    "excerpt": ""
   },
   {
@@ -51,7 +87,7 @@
    "published": "2026-11-22T08:59:21+00:00",
    "short": true,
    "kind": "short",
-   "views": 22006,
+   "views": 22823,
    "excerpt": ""
   },
   {
@@ -60,7 +96,7 @@
    "published": "2026-11-21T08:29:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 20591,
+   "views": 21001,
    "excerpt": ""
   },
   {
@@ -69,7 +105,7 @@
    "published": "2026-11-21T06:56:48+00:00",
    "short": true,
    "kind": "short",
-   "views": 40650,
+   "views": 41069,
    "excerpt": ""
   },
   {
@@ -78,7 +114,7 @@
    "published": "2026-11-21T04:03:46+00:00",
    "short": true,
    "kind": "short",
-   "views": 27798,
+   "views": 28289,
    "excerpt": ""
   },
   {
@@ -87,7 +123,7 @@
    "published": "2026-11-21T02:51:36+00:00",
    "short": true,
    "kind": "short",
-   "views": 63906,
+   "views": 65894,
    "excerpt": ""
   },
   {
@@ -105,7 +141,7 @@
    "published": "2026-11-20T11:58:17+00:00",
    "short": true,
    "kind": "short",
-   "views": 33741,
+   "views": 36042,
    "excerpt": ""
   },
   {
@@ -114,7 +150,7 @@
    "published": "2026-11-20T11:38:59+00:00",
    "short": true,
    "kind": "short",
-   "views": 11772,
+   "views": 11940,
    "excerpt": ""
   },
   {
@@ -123,7 +159,7 @@
    "published": "2026-11-20T11:12:24+00:00",
    "short": true,
    "kind": "short",
-   "views": 11381,
+   "views": 11526,
    "excerpt": ""
   },
   {
@@ -636,7 +672,7 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 10450,
+   "views": 10517,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   },
   {
@@ -645,7 +681,7 @@
    "published": "2026-10-22T09:51:12+00:00",
    "short": false,
    "kind": "video",
-   "views": 17842,
+   "views": 17892,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -654,7 +690,7 @@
    "published": "2026-09-20T21:00:10+00:00",
    "short": false,
    "kind": "video",
-   "views": 21348,
+   "views": 21381,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -663,7 +699,7 @@
    "published": "2026-09-13T01:21:28+00:00",
    "short": false,
    "kind": "live",
-   "views": 3679,
+   "views": 3681,
    "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
   },
   {
@@ -672,7 +708,7 @@
    "published": "2026-08-24T08:56:16+00:00",
    "short": false,
    "kind": "video",
-   "views": 24732,
+   "views": 24764,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   },
   {
@@ -681,44 +717,8 @@
    "published": "2026-08-09T11:00:19+00:00",
    "short": false,
    "kind": "video",
-   "views": 17828,
+   "views": 17858,
    "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "KApdbuBybC8",
-   "title": "最強の四天王 対浮き編【にゃんこ大戦争】",
-   "published": "2026-07-31T01:00:26+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 12880,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "n8CN-7-EPDc",
-   "title": "最強の四天王 対黒編【にゃんこ大戦争】",
-   "published": "2026-07-24T04:21:56+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 15604,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "k_G6xV6BWZU",
-   "title": "最強の四天王 対赤編【にゃんこ大戦争】",
-   "published": "2026-07-14T06:16:15+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 19814,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "zJo4yRhrEwc",
-   "title": "【ガメレオン】レベル60にしたキャラを解説【にゃんこ大戦争】",
-   "published": "2026-06-20T03:00:19+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 11873,
-   "excerpt": "アーカイブ、メンバー限定の企画動画などが見れます！"
   }
  ],
  "sub": [
@@ -917,7 +917,7 @@
    "published": "2026-02-10T10:00:14+00:00",
    "short": true,
    "kind": "short",
-   "views": 722,
+   "views": 723,
    "excerpt": ""
   },
   {
@@ -926,7 +926,7 @@
    "published": "2026-02-09T15:47:47+00:00",
    "short": true,
    "kind": "short",
-   "views": 1855,
+   "views": 1857,
    "excerpt": ""
   },
   {
