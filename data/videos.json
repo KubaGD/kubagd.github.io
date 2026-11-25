@@ -1,12 +1,57 @@
 {
  "videos": [
   {
+   "id": "Fmo88cnLt_A",
+   "title": "にゃんこ塔×脱獄バージョン【にゃんこ大戦争】",
+   "published": "2026-11-25T11:27:39+00:00",
+   "short": false,
+   "kind": "live",
+   "views": 8539,
+   "excerpt": "（データベースを参照、ちなみに全884体）"
+  },
+  {
+   "id": "LB7lHqQSpis",
+   "title": "キャットマンは強い…だが…",
+   "published": "2026-11-25T10:47:59+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6150,
+   "excerpt": ""
+  },
+  {
+   "id": "Eo4K2AfPJMc",
+   "title": "攻略にアイテムを使うのはアリか無しか",
+   "published": "2026-11-25T10:34:26+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 4765,
+   "excerpt": ""
+  },
+  {
+   "id": "0719UB3KD-s",
+   "title": "前田Lv.60にするか悩んでいる",
+   "published": "2026-11-25T10:26:58+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 5901,
+   "excerpt": ""
+  },
+  {
+   "id": "eVoOyQjmU2I",
+   "title": "世間では黒ルナの評価が低い？",
+   "published": "2026-11-25T10:01:23+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6313,
+   "excerpt": ""
+  },
+  {
    "id": "8IPSdLdwOn0",
    "title": "にゃんこ塔50階 真っ向勝負で戦う男",
    "published": "2026-11-24T06:10:37+00:00",
    "short": true,
    "kind": "short",
-   "views": 16458,
+   "views": 18641,
    "excerpt": ""
   },
   {
@@ -15,7 +60,7 @@
    "published": "2026-11-24T05:15:56+00:00",
    "short": true,
    "kind": "short",
-   "views": 14214,
+   "views": 16086,
    "excerpt": ""
   },
   {
@@ -24,7 +69,7 @@
    "published": "2026-11-24T05:14:55+00:00",
    "short": true,
    "kind": "short",
-   "views": 5522,
+   "views": 6737,
    "excerpt": ""
   },
   {
@@ -33,7 +78,7 @@
    "published": "2026-11-24T05:13:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 15964,
+   "views": 18775,
    "excerpt": ""
   },
   {
@@ -51,7 +96,7 @@
    "published": "2026-11-23T04:42:41+00:00",
    "short": true,
    "kind": "short",
-   "views": 204738,
+   "views": 211731,
    "excerpt": ""
   },
   {
@@ -69,7 +114,7 @@
    "published": "2026-11-22T12:03:21+00:00",
    "short": true,
    "kind": "short",
-   "views": 30205,
+   "views": 33162,
    "excerpt": ""
   },
   {
@@ -78,7 +123,7 @@
    "published": "2026-11-22T10:53:40+00:00",
    "short": true,
    "kind": "short",
-   "views": 24727,
+   "views": 24973,
    "excerpt": ""
   },
   {
@@ -87,7 +132,7 @@
    "published": "2026-11-22T08:59:21+00:00",
    "short": true,
    "kind": "short",
-   "views": 24587,
+   "views": 25927,
    "excerpt": ""
   },
   {
@@ -96,7 +141,7 @@
    "published": "2026-11-21T08:29:03+00:00",
    "short": true,
    "kind": "short",
-   "views": 22160,
+   "views": 22664,
    "excerpt": ""
   },
   {
@@ -105,7 +150,7 @@
    "published": "2026-11-21T06:56:48+00:00",
    "short": true,
    "kind": "short",
-   "views": 41504,
+   "views": 41739,
    "excerpt": ""
   },
   {
@@ -114,7 +159,7 @@
    "published": "2026-11-21T04:03:46+00:00",
    "short": true,
    "kind": "short",
-   "views": 28869,
+   "views": 29729,
    "excerpt": ""
   },
   {
@@ -672,53 +717,8 @@
    "published": "2026-10-26T11:54:15+00:00",
    "short": false,
    "kind": "video",
-   "views": 10676,
+   "views": 10719,
    "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
-  },
-  {
-   "id": "6zkeg7a_-4Q",
-   "title": "最強の四天王 対ゾンビ編【にゃんこ大戦争】",
-   "published": "2026-10-22T09:51:12+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 18076,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "dH3sr6R78tQ",
-   "title": "最強の四天王 対天使編【にゃんこ大戦争】",
-   "published": "2026-09-20T21:00:10+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 21511,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "_nMezun05Lk",
-   "title": "4人でくにおをやる",
-   "published": "2026-09-13T01:21:28+00:00",
-   "short": false,
-   "kind": "live",
-   "views": 3690,
-   "excerpt": "アーカイブ＆メンバー限定動画が見れます！"
-  },
-  {
-   "id": "rTFBYzeSk1Y",
-   "title": "最強の四天王 対エイリアン編【にゃんこ大戦争】",
-   "published": "2026-08-24T08:56:16+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 24878,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
-  },
-  {
-   "id": "1Qfm40XB9Y8",
-   "title": "最強の四天王 対メタル編【にゃんこ大戦争】",
-   "published": "2026-08-09T11:00:19+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 17944,
-   "excerpt": "①基本的には同一属性かつ仮想の敵構成"
   }
  ],
  "sub": [
@@ -728,7 +728,7 @@
    "published": "2026-10-20T03:34:22+00:00",
    "short": false,
    "kind": "live",
-   "views": 1013,
+   "views": 1015,
    "excerpt": ""
   },
   {
