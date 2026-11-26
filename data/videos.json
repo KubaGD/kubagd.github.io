@@ -1,6 +1,42 @@
 {
  "videos": [
   {
+   "id": "ex33IMFdSt0",
+   "title": "ショベリンの手柄じゃ…ない？",
+   "published": "2026-11-26T07:23:29+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 5022,
+   "excerpt": ""
+  },
+  {
+   "id": "XpzCBuKbg2c",
+   "title": "汎用編成を作らない理由",
+   "published": "2026-11-26T06:56:42+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 3779,
+   "excerpt": ""
+  },
+  {
+   "id": "3nUvUNmAiJA",
+   "title": "遅延ってどうなん？",
+   "published": "2026-11-26T06:43:28+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 1883,
+   "excerpt": ""
+  },
+  {
+   "id": "Tox9HIApQQE",
+   "title": "【Lv.60】かぐやとパラディンどっちにするか？",
+   "published": "2026-11-26T04:54:57+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 6497,
+   "excerpt": ""
+  },
+  {
    "id": "Fmo88cnLt_A",
    "title": "にゃんこ塔×脱獄バージョン【にゃんこ大戦争】",
    "published": "2026-11-25T11:27:39+00:00",
@@ -15,7 +51,7 @@
    "published": "2026-11-25T10:47:59+00:00",
    "short": true,
    "kind": "short",
-   "views": 9849,
+   "views": 12596,
    "excerpt": ""
   },
   {
@@ -24,7 +60,7 @@
    "published": "2026-11-25T10:34:26+00:00",
    "short": true,
    "kind": "short",
-   "views": 8529,
+   "views": 9648,
    "excerpt": ""
   },
   {
@@ -33,7 +69,7 @@
    "published": "2026-11-25T10:26:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 13159,
+   "views": 17392,
    "excerpt": ""
   },
   {
@@ -42,7 +78,7 @@
    "published": "2026-11-25T10:01:23+00:00",
    "short": true,
    "kind": "short",
-   "views": 11123,
+   "views": 14407,
    "excerpt": ""
   },
   {
@@ -51,7 +87,7 @@
    "published": "2026-11-24T06:10:37+00:00",
    "short": true,
    "kind": "short",
-   "views": 19089,
+   "views": 19543,
    "excerpt": ""
   },
   {
@@ -60,7 +96,7 @@
    "published": "2026-11-24T05:15:56+00:00",
    "short": true,
    "kind": "short",
-   "views": 16381,
+   "views": 16648,
    "excerpt": ""
   },
   {
@@ -69,7 +105,7 @@
    "published": "2026-11-24T05:14:55+00:00",
    "short": true,
    "kind": "short",
-   "views": 7220,
+   "views": 7980,
    "excerpt": ""
   },
   {
@@ -78,7 +114,7 @@
    "published": "2026-11-24T05:13:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 19464,
+   "views": 19982,
    "excerpt": ""
   },
   {
@@ -96,7 +132,7 @@
    "published": "2026-11-23T04:42:41+00:00",
    "short": true,
    "kind": "short",
-   "views": 214440,
+   "views": 217594,
    "excerpt": ""
   },
   {
@@ -114,7 +150,7 @@
    "published": "2026-11-22T12:03:21+00:00",
    "short": true,
    "kind": "short",
-   "views": 33765,
+   "views": 34269,
    "excerpt": ""
   },
   {
@@ -123,7 +159,7 @@
    "published": "2026-11-22T10:53:40+00:00",
    "short": true,
    "kind": "short",
-   "views": 25076,
+   "views": 25185,
    "excerpt": ""
   },
   {
@@ -683,42 +719,6 @@
    "kind": "short",
    "views": 24951,
    "excerpt": ""
-  },
-  {
-   "id": "g9zHuMayd7g",
-   "title": "斎藤さん、クオリネスのド適正になるか？",
-   "published": "2026-10-30T10:30:34+00:00",
-   "short": true,
-   "kind": "short",
-   "views": 22426,
-   "excerpt": ""
-  },
-  {
-   "id": "GRFxE2y7Bi4",
-   "title": "かわわっぱJr.に使えるキャラ",
-   "published": "2026-10-29T22:30:03+00:00",
-   "short": true,
-   "kind": "short",
-   "views": 10114,
-   "excerpt": ""
-  },
-  {
-   "id": "_mN1UVHo7Kw",
-   "title": "コスモの呪い、解放するべきか？",
-   "published": "2026-10-29T10:30:23+00:00",
-   "short": true,
-   "kind": "short",
-   "views": 33447,
-   "excerpt": ""
-  },
-  {
-   "id": "DflGXIijGD0",
-   "title": "ブンナグリオス5枠攻略×6パターン【にゃんこ大戦争】",
-   "published": "2026-10-26T11:54:15+00:00",
-   "short": false,
-   "kind": "video",
-   "views": 10754,
-   "excerpt": "ブンナグリオスをアビスバージョンで、尚且つ5枠で遊んでみました！"
   }
  ],
  "sub": [
@@ -791,7 +791,7 @@
    "published": "2026-08-17T13:12:49+00:00",
    "short": true,
    "kind": "short",
-   "views": 1782,
+   "views": 1783,
    "excerpt": ""
   },
   {
