@@ -1,6 +1,15 @@
 {
  "videos": [
   {
+   "id": "uy-k4yi9jZ0",
+   "title": "エターニスはクレイG？",
+   "published": "2026-11-27T22:28:08+00:00",
+   "short": true,
+   "kind": "short",
+   "views": 14616,
+   "excerpt": ""
+  },
+  {
    "id": "-yZwqCwsZoQ",
    "title": "14周年【にゃんこ大戦争】",
    "published": "2026-11-27T11:19:39+00:00",
@@ -15,7 +24,7 @@
    "published": "2026-11-27T10:19:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 15721,
+   "views": 18912,
    "excerpt": ""
   },
   {
@@ -24,7 +33,7 @@
    "published": "2026-11-27T09:33:25+00:00",
    "short": true,
    "kind": "short",
-   "views": 37913,
+   "views": 54277,
    "excerpt": ""
   },
   {
@@ -33,7 +42,7 @@
    "published": "2026-11-26T07:23:29+00:00",
    "short": true,
    "kind": "short",
-   "views": 32682,
+   "views": 33250,
    "excerpt": ""
   },
   {
@@ -42,7 +51,7 @@
    "published": "2026-11-26T06:56:42+00:00",
    "short": true,
    "kind": "short",
-   "views": 23473,
+   "views": 23853,
    "excerpt": ""
   },
   {
@@ -51,7 +60,7 @@
    "published": "2026-11-26T06:43:28+00:00",
    "short": true,
    "kind": "short",
-   "views": 20485,
+   "views": 21704,
    "excerpt": ""
   },
   {
@@ -60,7 +69,7 @@
    "published": "2026-11-26T04:54:57+00:00",
    "short": true,
    "kind": "short",
-   "views": 20069,
+   "views": 20515,
    "excerpt": ""
   },
   {
@@ -78,7 +87,7 @@
    "published": "2026-11-25T10:47:59+00:00",
    "short": true,
    "kind": "short",
-   "views": 14325,
+   "views": 14462,
    "excerpt": ""
   },
   {
@@ -87,7 +96,7 @@
    "published": "2026-11-25T10:34:26+00:00",
    "short": true,
    "kind": "short",
-   "views": 11085,
+   "views": 11275,
    "excerpt": ""
   },
   {
@@ -96,7 +105,7 @@
    "published": "2026-11-25T10:26:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 22609,
+   "views": 22762,
    "excerpt": ""
   },
   {
@@ -105,7 +114,7 @@
    "published": "2026-11-25T10:01:23+00:00",
    "short": true,
    "kind": "short",
-   "views": 16564,
+   "views": 16653,
    "excerpt": ""
   },
   {
@@ -114,7 +123,7 @@
    "published": "2026-11-24T06:10:37+00:00",
    "short": true,
    "kind": "short",
-   "views": 20634,
+   "views": 20693,
    "excerpt": ""
   },
   {
@@ -123,7 +132,7 @@
    "published": "2026-11-24T05:15:56+00:00",
    "short": true,
    "kind": "short",
-   "views": 17291,
+   "views": 17370,
    "excerpt": ""
   },
   {
@@ -132,7 +141,7 @@
    "published": "2026-11-24T05:14:55+00:00",
    "short": true,
    "kind": "short",
-   "views": 10067,
+   "views": 10686,
    "excerpt": ""
   },
   {
@@ -141,7 +150,7 @@
    "published": "2026-11-24T05:13:58+00:00",
    "short": true,
    "kind": "short",
-   "views": 21410,
+   "views": 21535,
    "excerpt": ""
   },
   {
@@ -710,15 +719,6 @@
    "kind": "short",
    "views": 28307,
    "excerpt": ""
-  },
-  {
-   "id": "Xvx_07wnBfQ",
-   "title": "上杉は道場検定ド適正",
-   "published": "2026-10-31T12:14:53+00:00",
-   "short": true,
-   "kind": "short",
-   "views": 12735,
-   "excerpt": ""
   }
  ],
  "sub": [
@@ -728,7 +728,7 @@
    "published": "2026-10-20T03:34:22+00:00",
    "short": false,
    "kind": "live",
-   "views": 1015,
+   "views": 1016,
    "excerpt": ""
   },
   {
@@ -926,7 +926,7 @@
    "published": "2026-02-09T15:47:47+00:00",
    "short": true,
    "kind": "short",
-   "views": 1859,
+   "views": 1860,
    "excerpt": ""
   },
   {
